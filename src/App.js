@@ -9,6 +9,8 @@ import Contacts from './pages/Contacts';
 function App() {
   return (
     <div>
+      <header></header>
+      <nav></nav>
       <Routes>
         <Route path='/' element={<Accueil />} />
         <Route path='/presentation' element={<Presentation />} />
@@ -16,7 +18,7 @@ function App() {
         <Route path='/relalisations' element={<Relalisations />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
-
+      <footer></footer>
     </div>
   );
 }
