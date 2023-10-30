@@ -5,12 +5,15 @@ import Presentation from './pages/Presentation';
 import Prestations from './pages/Prestations';
 import Relalisations from './pages/Relalisations';
 import Contacts from './pages/Contacts';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div>
-      <header></header>
-      <nav></nav>
+      <Header />
+      <NavBar />
       <Routes>
         <Route path='/' element={<Accueil />} />
         <Route path='/presentation' element={<Presentation />} />
@@ -18,7 +21,7 @@ function App() {
         <Route path='/relalisations' element={<Relalisations />} />
         <Route path='/contacts' element={<Contacts />} />
       </Routes>
-      <footer></footer>
+      <Footer />
     </div>
   );
 }
