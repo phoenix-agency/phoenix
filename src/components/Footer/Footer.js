@@ -48,10 +48,10 @@ export default function Footer() {
         <h3>Besoin d'aide ?</h3>
         <ul>
           <li>
-            <Link to="/contacts">Contactez-nous</Link>
+            <Link to="/rendezvous">Besoin d'un Rendez-Vous?</Link>
           </li>
           <li>
-            <Link to="/prestations">Prestations</Link>
+            <Link to="/candidature">Déposez votre candidature</Link>
           </li>
           <li>
             <Link to="/realisations">Réalisations</Link>
