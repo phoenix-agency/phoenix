@@ -13,7 +13,7 @@ import Prestataire from './components/Prestataire';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
-import PrestationsInfo from './components/PrestationsInfo';
+import PrestationsInfo from './pages/PrestationsInfo/PrestationsInfo';
 
 function App() {
 	return (
