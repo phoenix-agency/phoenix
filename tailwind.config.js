@@ -4,14 +4,14 @@ module.exports = {
     extend: {
       colors: {
         primary: "#3361FF",
-        secondary: "#1E1E1E",
+        secondary: "#1E1E1E", //Couleur de la police
         gray: {
-          lighter: "#747474",
-          default: "#868894  ",
+          dark: "#747474",
+          light: "#868894  ",
         },
       },
       fontFamily: {
-        body: ["Roboto"],
+        roboto: ["Roboto"],
       },
     },
   },
