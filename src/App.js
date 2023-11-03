@@ -16,22 +16,20 @@ import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Bonjour
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/presentation" element={<Presentation />} />
+        <Route path="/prestations" element={<Prestations />} />
+        <Route path="/realisations" element={<Realisations />} />
+        <Route path="/contacts" element={<Contacts />} />
+        <Route path="/rendezvous" element={<RendezVous />} />
+        <Route path="/candidature" element={<Candidature />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 
