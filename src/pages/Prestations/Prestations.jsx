@@ -1,6 +1,9 @@
 import DesktopSvg from "../../assets/svg/DesktopSvg";
 import EarthSvg from "../../assets/svg/EarthSvg";
 import RocketChatSvg from "../../assets/svg/RocketChatSvg";
+import UserSVG from "../../assets/svg/UserSVG";
+import WordpressSVG from "../../assets/svg/WordpressSVG";
+import FilterSVG from "../../assets/svg/FilterSvg";
 function Prestations() {
   return (
     <div className="bg-slate-100">
@@ -35,6 +38,7 @@ function Prestations() {
           </p>
         </div>
         <div className="bg-white rounded-3xl">
+          <FilterSVG />
           <h2 className="text-2xl text-secondary mb-3">
             Référencement Naturel
           </h2>
@@ -47,6 +51,7 @@ function Prestations() {
           </p>
         </div>
         <div className="bg-white rounded-3xl">
+          <WordpressSVG />
           <h2 className="text-2xl text-secondary mb-3">
             Agence Web Experte WordPress
           </h2>
@@ -58,6 +63,7 @@ function Prestations() {
           </p>
         </div>
         <div className="bg-white rounded-3xl">
+          <UserSVG />
           <h2 className="text-2xl text-secondary mb-3">
             Maintenance & Cyber-Sécurité
           </h2>
