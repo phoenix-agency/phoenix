@@ -11,7 +11,7 @@ import Candidature from './pages/Candidature/Candidature';
 import Prestataire from './components/Prestataire';
 //Import Components
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+//import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
 import PrestationsInfo from './pages/PrestationsInfo/PrestationsInfo';
 
@@ -32,7 +32,7 @@ function App() {
 					<Route path='/prestataire' element={<Prestataire />} />
 					<Route path='/prestations-info' element={<PrestationsInfo />} />
 				</Routes>
-				<Footer />
+				{/* <Footer /> */}
 			</BrowserRouter>
 		</>
 	);

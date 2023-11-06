@@ -1,4 +1,3 @@
-import React from 'react'
 import ButtonContact from '../ButtonContact/ButtonContact'
 import { Link } from 'react-router-dom'
 
@@ -45,10 +44,10 @@ export default function Footer() {
          </ul>
         </div>
       <div>
-        <h3>Besoin d'aide ?</h3>
+        <h3>Besoin d&apos;aide ?</h3>
         <ul>
           <li>
-            <Link to="/rendezvous">Besoin d'un Rendez-Vous?</Link>
+            <Link to="/rendezvous">Besoin d&apos;un Rendez-Vous?</Link>
           </li>
           <li>
             <Link to="/candidature">Déposez votre candidature</Link>

@@ -1,4 +1,3 @@
-import React from 'react'
 import FormCandidature from '../../components/FormCandidature/FormCandidature'
 
 export default function Candidature() {
