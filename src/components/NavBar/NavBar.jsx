@@ -13,11 +13,18 @@ export default function NavBar() {
   return (
     <nav>
       <ul className="Navbar">
-        <Link to="/"><img src={Logo} alt="logo" /></Link>
 
-        <Link to="/">Accueil</Link>
+        <li>
+          <Link to="/"><img src={Logo} alt="logo" /></Link>
+        </li>
 
-        <Link to="/presentation">Présentation</Link>
+        <li>
+          <Link to="/">Accueil</Link>
+        </li>
+
+        <li>
+          <Link to="/presentation">Présentation</Link>
+        </li>
 
         <li
           onMouseEnter={() => setShowPrestaList(true)}

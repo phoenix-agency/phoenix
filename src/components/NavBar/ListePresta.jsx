@@ -30,44 +30,44 @@ function ListePresta() {
         <Link to="/reworking">Refonte de site Internet</Link>
       </div>
       <div>
-        <Link to="/wordpress"><img src={Devweb} alt="Wordpress" /></Link>
-        <Link to="/wordpress">Dévelopement Web</Link>
+        <Link to="/Devweb"><img src={Devweb} alt="Developement web" /></Link>
+        <Link to="/Devweb">Dévelopement Web</Link>
       </div>
       <div>
-        <Link to="/eshop"><img src={DesignMarketing} alt="E-shop" /></Link>
-        <Link to="/eshop">Responsive Design & Marketing Mobile</Link>
+        <Link to="/DesignMarketing"><img src={DesignMarketing} alt="Design & Marketing" /></Link>
+        <Link to="/DesignMarketing">Responsive Design & Marketing Mobile</Link>
       </div>
       <div>
-        <Link to="/reworking"><img src={Forfaits} alt="Refonte" /></Link>
-        <Link to="/reworking">Les forfaits web</Link>
+        <Link to="/Forfait"><img src={Forfaits} alt="Forfait" /></Link>
+        <Link to="/Forfait">Les forfaits web</Link>
       </div>
       <div>
-        <Link to="/wordpress"><img src={Seo} alt="Wordpress" /></Link>
-        <Link to="/wordpress">Référencement naturel SEO</Link>
+        <Link to="/SEO"><img src={Seo} alt="SEO" /></Link>
+        <Link to="/SEO">Référencement naturel SEO</Link>
       </div>
       <div>
-        <Link to="/eshop"><img src={Socialnetwork} alt="E-shop" /></Link>
-        <Link to="/eshop">Marketing des médias sociaux</Link>
+        <Link to="/SocialNetwork"><img src={Socialnetwork} alt="SocialNetwork" /></Link>
+        <Link to="/SocialNetwork">Marketing des médias sociaux</Link>
       </div>
       <div>
-        <Link to="/reworking"><img src={AddsCampaign} alt="Refonte" /></Link>
-        <Link to="/reworking">Gestion des campagnes publicitaires</Link>
+        <Link to="/AddsCampaign"><img src={AddsCampaign} alt="AddsCampaign" /></Link>
+        <Link to="/AddsCampaign">Gestion des campagnes publicitaires</Link>
       </div>
       <div>
-        <Link to="/wordpress"><img src={Upkeep} alt="Wordpress" /></Link>
-        <Link to="/wordpress">Hébergement web & Maintenance</Link>
+        <Link to="/Upkeep"><img src={Upkeep} alt="Upkeep" /></Link>
+        <Link to="/Upkeep">Hébergement web & Maintenance</Link>
       </div>
       <div>
-        <Link to="/eshop"><img src={Green} alt="E-shop" /></Link>
-        <Link to="/eshop">Hébergement Web À L&apos;énergie Verte & Développement Web Éco-Responsable.</Link>
+        <Link to="/Green"><img src={Green} alt="Green" /></Link>
+        <Link to="/Green">Hébergement Web À L&apos;énergie Verte & Développement Web Éco-Responsable.</Link>
       </div>
       <div>
-        <Link to="/reworking"><img src={Rgpd} alt="Refonte" /></Link>
-        <Link to="/reworking">Mise en conformité RGPD</Link>
+        <Link to="/Rgpd"><img src={Rgpd} alt="Rgpd" /></Link>
+        <Link to="/Rgpd">Mise en conformité RGPD</Link>
       </div>
       <div>
-        <Link to="/reworking"><img src={Audit} alt="Refonte" /></Link>
-        <Link to="/reworking">Audit</Link>
+        <Link to="/Audit"><img src={Audit} alt="Audit" /></Link>
+        <Link to="/Audit">Audit</Link>
       </div>
     </div>
   );
