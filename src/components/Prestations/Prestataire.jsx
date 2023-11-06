@@ -1,6 +1,6 @@
-import securite from "../assets/securite.png";
-import chiffreAffaire from "../assets/chiffreAffaire.png";
-import optimisation from "../assets/optimisation.png";
+import securite from "../../assets/securite.png";
+import chiffreAffaire from "../../assets/chiffreAffaire.png";
+import optimisation from "../../assets/optimisation.png";
 function Prestataire() {
   return (
     <div>
