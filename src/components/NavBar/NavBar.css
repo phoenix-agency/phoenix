@@ -2,3 +2,14 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.presta-list {
+    display: flex;
+    margin: 5vh;
+    justify-content: space-evenly;
+}
+
+.ListeContact {
+    display: flex;
+    flex-direction: column;
+}
