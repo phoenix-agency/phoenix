@@ -14,8 +14,8 @@ function NosPrestations() {
           <DesktopSvg color="#3361FF" />
           <h2 className="text-2xl text-secondary mb-3">Web Design</h2>
           <p className="text-gray-light">
-            Nous élaborons un design unique qui reflétera l'image de marque de
-            votre entreprise. Conception de site internet vitrine, inclus
+            Nous élaborons un design unique qui reflétera l&apos;image de marque
+            de votre entreprise. Conception de site internet vitrine, inclus
             responsive design (adapté aux mobiles et tablettes).
           </p>
         </div>
@@ -44,11 +44,11 @@ function NosPrestations() {
             Référencement Naturel
           </h2>
           <p className="text-gray-light">
-            Toutes nos créations de site internet bénéficient d'une optimisation
-            du code source. Obtenez ainsi de meilleurs scores pour les termes de
-            recherche de votre site internet. Vous aurez davantage de prospects
-            qualifiés pour un développement de chiffre d'affaires bien plus
-            conséquent.
+            Toutes nos créations de site internet bénéficient d&apos;une
+            optimisation du code source. Obtenez ainsi de meilleurs scores pour
+            les termes de recherche de votre site internet. Vous aurez davantage
+            de prospects qualifiés pour un développement de chiffre
+            d&apos;affaires bien plus conséquent.
           </p>
         </div>
         <div className="bg-white rounded-3xl">
@@ -70,8 +70,8 @@ function NosPrestations() {
           </h2>
           <p className="text-gray-light">
             Nous sommes reconnus pour la qualité de notre prestation de
-            maintenance qu'elle soit évolutive, corrective ou préventive. Notre
-            particularité est que nous sommes une véritable agence de
+            maintenance qu&apos;elle soit évolutive, corrective ou préventive.
+            Notre particularité est que nous sommes une véritable agence de
             cyber-sécurité. Votre site internet sera un véritable coffre-fort
             numérique. Pour un web économique et durable.
           </p>
