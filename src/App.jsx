@@ -10,6 +10,7 @@ import RendezVous from "./pages/RendezVous/RendezVous";
 import Candidature from "./pages/Candidature/Candidature";
 //Import Components
 <<<<<<< HEAD
+<<<<<<< HEAD
 import Header from './components/Header/Header';
 //import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
@@ -37,6 +38,8 @@ function App() {
 		</>
 	);
 =======
+=======
+>>>>>>> Geo
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
@@ -60,7 +63,10 @@ function App() {
       </BrowserRouter>
     </>
   );
+<<<<<<< HEAD
 >>>>>>> 37f53673719b44a14ecba2dfb5ca12e3d79c8028
+=======
+>>>>>>> Geo
 }
 
 export default App;
