@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import React, { useState } from 'react';
 
 const formRDV = () => {
@@ -27,7 +25,6 @@ const formRDV = () => {
       message: ''
     });
   };
->>>>>>> 37f53673719b44a14ecba2dfb5ca12e3d79c8028
 
   return (
     <form onSubmit={handleSubmit}>
