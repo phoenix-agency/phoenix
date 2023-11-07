@@ -2,7 +2,9 @@ import FormCandidature from '../../components/FormCandidature/FormCandidature'
 
 export default function Candidature() {
   return (
-    <div>Si vous voulez nous envoyer votre candidature renplissez le formulaire ci-dessous : 
+    <div>Recherche Stage / Contrat pro / 
+        Alternance Webdesign développeur web, communication, Référencement, à Lille : 
+        Dépôt de la candidature 
         <FormCandidature/>
     </div>
   )
