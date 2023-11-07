@@ -1,7 +1,9 @@
-import React from 'react'
+import NosClients from "../../components/Home/NosClients";
 
 export default function Accueil() {
   return (
-    <div>Accueil</div>
-  )
+    <div>
+      <NosClients />
+    </div>
+  );
 }
