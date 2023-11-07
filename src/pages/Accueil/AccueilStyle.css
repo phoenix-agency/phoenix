@@ -1,0 +1,58 @@
+/** Style Component Society **/
+
+.SocietyContainer {
+    display: flex;
+    background-color: #7C61D6;
+    padding: 10vh;
+}
+
+.SocietyPresentation {
+    width: 60%;
+}
+
+.SocietyTitle, .SocietyText, .DiscoverButton {
+    color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.SocietyText, .DiscoverButton {
+    font-size: 1.5em;
+}
+
+.SocietyTitle {
+    font-size: 3.5em;
+}
+
+.DiscoverButton {
+    background-color: #33E2A0;
+    padding: 1vh;
+    border-radius: 45px;
+}
+
+
+/** Style Component CloseToC **/
+
+.CloseToCContainer {
+    display: flex;
+    background-color: white;
+    padding: 10vh;
+}
+
+.CloseToCPresentation {
+    width: 60%;
+}
+
+.CloseToCTitle {
+    font-size: 3.5em;
+}
+
+.CloseToCText {
+    font-size: 1.5em;
+    width: 20%;
+}
+
+.Slogan {
+    font-size: 1.5em;
+    text-align: center;
+}
