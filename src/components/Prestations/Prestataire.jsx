@@ -1,6 +1,6 @@
-import securite from "../assets/securite.png";
-import chiffreAffaire from "../assets/chiffreAffaire.png";
-import optimisation from "../assets/optimisation.png";
+import securite from "../../assets/securite.png";
+import chiffreAffaire from "../../assets/chiffreAffaire.png";
+import optimisation from "../../assets/optimisation.png";
 function Prestataire() {
   return (
     <div>
@@ -12,9 +12,15 @@ function Prestataire() {
           Prestataire IT & Web
         </h2>
         <p className=" text-gray-light mb-24">
+<<<<<<< HEAD:src/components/Prestataire.jsx
           Vous l&apos;aurez compris, la SAS WEBAGENCELILLE.COM ne fait pas que du web
           elle fait aussi de l&apos;installation de parc informatique et du conseil
           en numérique.
+=======
+          Vous l&apos;aurez compris, la SAS WEBAGENCELILLE.COM ne fait pas que
+          du web elle fait aussi de l&apos;installation de parc informatique et
+          du conseil en numérique.
+>>>>>>> 37f53673719b44a14ecba2dfb5ca12e3d79c8028:src/components/Prestations/Prestataire.jsx
         </p>
       </div>
       <div className="flex flex-col justify-center text-center md:flex-row">
