@@ -9,9 +9,11 @@ import Contacts from "./pages/Contact/Contacts";
 import RendezVous from "./pages/RendezVous/RendezVous";
 import Candidature from "./pages/Candidature/Candidature";
 //Import Components
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import NavBar from "./components/NavBar/NavBar";
+import Header from './components/Header/Header';
+/** import Footer from './components/Footer/Footer'; */
+import NavBar from './components/NavBar/NavBar';
+
+
 
 function App() {
   return (
@@ -28,7 +30,7 @@ function App() {
           <Route path="/rendezvous" element={<RendezVous />} />
           <Route path="/candidature" element={<Candidature />} />
         </Routes>
-        <Footer />
+        {/*<Footer /> */}
       </BrowserRouter>
     </>
   );

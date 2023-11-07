@@ -1,12 +1,18 @@
 .Navbar {
     display: flex;
     justify-content: space-evenly;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #7C61D6;
+    color: white;
 }
 
 .presta-list {
     display: flex;
     margin: 5vh;
     justify-content: space-evenly;
+    background-color: white;
+    color: black;
 }
 
 .ListeContact {
