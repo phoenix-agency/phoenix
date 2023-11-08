@@ -13,7 +13,7 @@ export default function NavBar() {
   return (
     <nav>
       <div className="Navbar">
-        <Link to="/"><img src={Logo} alt="logo" /></Link> 
+        <Link to="/"><img src={Logo} alt="logo" className='Logo' /></Link> 
         <Link to="/">Accueil</Link>
         <Link to="/presentation">Présentation</Link>
         <Link to='/prestations' onMouseEnter={() => setShowPrestaList(true)}

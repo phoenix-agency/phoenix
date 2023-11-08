@@ -9,9 +9,7 @@ function society() {
                 <p className='SocietyText'>Nous adorons faire de belles choses. Notre but est de vous fournir tout ce dont vous avez besoin pour la communication digitale de votre entreprise, de la conception web en passant par le webmarketing. Nous serons votre renfort technique et technologique.</p>
                 <button className='DiscoverButton'>Découvrez ce que nous savons faire</button>
             </div>
-            <div>
-                <img src={SocietyPic} alt="SocietyPic" />
-            </div>
+            <img src={SocietyPic} alt="Illustration société" className='SocietyPic'/>
         </div>
     )
 }
