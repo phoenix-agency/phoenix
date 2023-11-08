@@ -61,7 +61,7 @@ export default function responsive() {
                 <p>
                     Google a imposé la standardisation du responsive design pour le confort des utilisateurs. 
                     En respectant cette règle vous aurez, automatiquement, un meilleur référencement naturel (SEO).
-                </p>
+                  </p>
             </div>
         </div>
     </div>
