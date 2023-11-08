@@ -60,3 +60,26 @@
     font-size: 2.5em;
     text-align: center;
 }
+
+/** Style Component SiDifferent **/
+
+.DifferenceContainer {
+    display: flex;
+    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: space-evenly;
+}
+
+.MenuDeroulant {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2.5em;
+}
+
+.DifferenceImg {
+    width: 80vh;
+}
