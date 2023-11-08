@@ -5,6 +5,7 @@ import Partner from "./Components/Partner.jsx";
 import Responsive from "./Components/Responsive.jsx";
 import NosPrestations from "../../components/Home/NosPrestations.jsx";
 import SiDifferent from "./Components/SiDifferent.jsx"
+import ReaAgence from "./Components/ReaAgence.jsx";
 
 export default function Accueil() {
   return (
@@ -12,6 +13,7 @@ export default function Accueil() {
       <Society />
       <CloseToC />
       <SiDifferent />
+      <ReaAgence />
       <NosPrestations />
       <Partner />
       <Responsive />

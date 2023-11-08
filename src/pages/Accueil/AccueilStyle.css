@@ -8,7 +8,11 @@
 }
 
 .SocietyPresentation {
-    width: 60%;
+    width: 100%;
+}
+
+.SocietyPic {
+    width: 100vh;
 }
 
 .SocietyTitle, .SocietyText, .DiscoverButton {
@@ -19,6 +23,8 @@
 
 .SocietyText, .DiscoverButton {
     font-size: 1.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
 .SocietyTitle {
@@ -42,22 +48,27 @@
 }
 
 .CloseToCPresentation {
-    width: 60%;
+    width: 100%;
 }
 
+.CloseToPic {
+    width: 100vh;
+}
 .CloseToCTitle {
     font-size: 3.5em;
+    color: #1B0E3D;
 }
 
 .CloseToCText {
-    font-size: 1.5em;
     width: 50%;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
+    font-size: 1.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #585E68;
 }
 
 .Slogan {
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
 }
 
@@ -65,21 +76,110 @@
 
 .DifferenceContainer {
     display: flex;
+    flex-direction: column;
     background-color: white;
     padding-top: 10vh;
     padding-bottom: 10vh;
     justify-content: space-evenly;
 }
 
+.DifferencePresentation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.DifferenceTitle {
+    font-size: 3.5em;
+    color: #1B0E3D;
+}
+
+.DifferenceText {
+    width: 50%;
+    font-size: 1.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #585E68;
+    text-align: center;
+}
+.MenuContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .MenuDeroulant {
     display: flex;
     flex-direction: column;
-    width: 60vh;
+    width: 100%;
     align-items: center;
     justify-content: space-around;
     font-size: 2.5em;
+    padding-right: 15vh;
+    padding-left: 15vh;
 }
 
+.menu-item {
+    color: #1A264A; 
+    font-size: 1em;
+    padding: 6vh;
+}
+
+.menu-item.selected {
+    background-color: #33E2A0;
+    padding: 6vh;
+}
+
+
+.TexteClique {
+    font-size: 25px;
+    margin-top: 5vh;
+    background-color: #33E2A0;
+    color: white;
+}
 .DifferenceImg {
-    width: 80vh;
+    height: 50vh;
+}
+  
+
+/** Style Component ReaAgence **/
+
+.ReaAgenceContainer {
+    display: flex;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+}
+
+.ReaPresentation {
+    width: 30%;
+}
+
+.ReaPic {
+    width: 100vh;
+}
+
+.ReaTitle, .ReaText, .ReaDiscoverButton {
+    color: #585E68;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.ReaText, .ReaDiscoverButton {
+    font-size: 1.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.ReaTitle {
+    color: #1B0E3D;
+    font-size: 3.5em;
+}
+
+.ReaDiscoverButton {
+    background-color: #33E2A0;
+    padding: 1vh;
+    border-radius: 45px;
+    color: white;
 }
