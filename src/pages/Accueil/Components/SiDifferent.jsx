@@ -26,27 +26,32 @@ function Sidifferents() {
 
   return (
     <div className="DifferenceContainer">
-      <div className='DifferencePresentation'>
-        <h1 className="DifferenceTitle">Ce Qui Nous Rend Si Différents</h1>
-        <p className="DifferenceText">Avec l&apos;arrivée perpétuelle de nouveaux concurrents, nous avons la satisfaction et cultivons la pérennité de vous proposer, à travers notre expertise, une écoute et des sites internet personnalisés grâce à notre approche novatrice de la conception Web.</p>
+      <div className='Presentation-Center SmallBlock'>
+        <h1 className='Title Blue'>Ce Qui Nous Rend Si Différents</h1>
+        <p className='Text Grey AlignCenter'>Avec l&apos;arrivée perpétuelle de nouveaux concurrents, nous avons la satisfaction et cultivons la pérennité de vous proposer, à travers notre expertise, une écoute et des sites internet personnalisés grâce à notre approche novatrice de la conception Web.</p>
       </div>
       <div className="MenuContainer">
         <ul className='MenuDeroulant'>
             {items.map((item, index) => (
-                <li key={index} onClick={() => handleClick(index)} className={showText[index] ? 'selected menu-item' : 'menu-item'}>
+                <li key={index} onClick={() => handleClick(index)} className={showText[index] ? 'selected menu-item' : 'menu-item SubTitle Blue'}>
                     {item}
                     {showText[index] && (
-                    <div className="TexteClique">
+                    <div className="Text White MarginTop">
                         {messages[index]}
                     </div>
                     )}
                 </li>
             ))}
         </ul>
-        <img src={DifferencePic} alt="illustration code" className='DifferenceImg' />
+        <img src={DifferencePic} alt="illustration code"/>
       </div>
     </div>
   );
 }
 
 export default Sidifferents;
+
+
+
+
+
