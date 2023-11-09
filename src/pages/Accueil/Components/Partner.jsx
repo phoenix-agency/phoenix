@@ -3,7 +3,8 @@ import partnerPic from './ComponentsPic/Partner.png'
 
 export default function partner() {
   return (
-    <div>
+    <div className='elementor-container elementor-column-gap-default' >
+      <div className='elementor-row'>
         <div className='PartnerContainer'>
             <h1>Votre véritable partenaire de business</h1>
             <p>
@@ -16,6 +17,7 @@ export default function partner() {
         </div>
         <div className='PartnerImgContainer'>
             <img src={partnerPic} alt="PartnerImg" />
+        </div>
         </div>
     </div>
   )
