@@ -44,6 +44,15 @@
     justify-content: space-evenly;
 }
 
+.PartnerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
 .ResponsiveContainer {
     display: flex;
     flex-direction: column;
@@ -56,8 +65,15 @@
 
 .Responsive{
     display: flex;
+    justify-content: space-evenly;
 }
 
+.ListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vh;
+}
 /** Style pour Titre et texte **/
 
 .Title {
@@ -67,6 +83,10 @@
 .SubTitle {
     font-size: 24px;
     padding-left: 5vh;
+}
+
+.SubTitle-NoPadding {
+    font-size: 24px;
 }
 
 .Text { 
@@ -125,6 +145,10 @@
 
 .MarginTop {
     margin-top: 3vh;
+}
+
+.MediumWidth {
+    width: 60%;
 }
 
 .SmallWidth {
