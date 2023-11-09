@@ -1,4 +1,3 @@
-import React from 'react'
 import partnerPic from './ComponentsPic/Partner.png'
 
 export default function partner() {
