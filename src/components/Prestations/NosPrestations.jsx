@@ -13,9 +13,7 @@ function NosPrestations() {
         Nos Prestations
       </h2>
       <div className="px-48 text-center grid grid-cols-3 pb-32 pt-5 gap-12">
-        {/* Repeat this section for each of your grid items */}
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className="h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -37,10 +35,8 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
-        {/* Repeat this section for each of your grid items */}
+
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className="h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -63,10 +59,8 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
-        {/* Repeat this section for each of your grid items */}
+
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className="h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -88,10 +82,8 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
-        {/* Repeat this section for each of your grid items */}
+
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className=" h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -117,10 +109,8 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
-        {/* Repeat this section for each of your grid items */}
+
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className=" h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -145,10 +135,8 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
-        {/* Repeat this section for each of your grid items */}
+
         <div className="flex flex-col h-full">
-          {/* Wrap each grid item in a container */}
           <div className="h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
               <div className="hover:scale-105">
@@ -174,7 +162,6 @@ function NosPrestations() {
             />
           </div>
         </div>
-        {/* End of grid item */}
       </div>
     </div>
   );
