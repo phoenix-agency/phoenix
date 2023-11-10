@@ -3,9 +3,9 @@ import partnerPic from './ComponentsPic/Partner.png'
 
 export default function partner() {
   return (
-    <div className='elementor-container elementor-column-gap-default' >
-      <div className='elementor-row'>
-        <div className='PartnerContainer'>
+    <div>
+      <div className='PartnerContainer'>
+        <div className='PartnerPresentation'>
             <h1>Votre véritable partenaire de business</h1>
             <p>
             Nous créons des sites web avec des fonctionnalités qui vous permettront de 
