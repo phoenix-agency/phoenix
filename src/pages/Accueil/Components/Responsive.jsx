@@ -3,27 +3,29 @@ import responsivePic from './ComponentsPic/Responsive.png'
 
 export default function responsive() {
   return (
-    <div>
-        <div>
+
+    <div className='Responsive'>
+        <div className='ResponsivePresentation'>
             <h1>Conception De Site Internet Responsive Design À Lille 3 En 1</h1>
+            <h2>-------------------</h2>
             <h3> site internet opérationnel à la fois sur mobile, ordinateur & tablette</h3>
         </div>
-        <div>
-            <div>
+        <div className='ResponsiveContainer'>
+            <div className='un'>
                 <h2>Développement Premium</h2>
                 <p>
                     Nous prêtons une attention particulière à la conception de pointe et les normes 
                     d'utilisabilité modernes.
                 </p>
             </div>
-            <div>
+            <div className='deux'>
                 <h2>Cross Plateform & Responsive Design</h2>
                 <p>
                     Nos sites internet responsive design s'adaptent librement et efficacement 
                     sur tous les périphériques de n'importe qu'elle marque.
                 </p>
             </div>
-            <div>
+            <div className='trois'>
                 <h2>
                     Optimisation Accrue
                 </h2>
@@ -32,12 +34,10 @@ export default function responsive() {
                     efficacement l'affichage de votre site internet.
                 </p>
             </div>
-        </div>
-        <div>
-            <img src= {responsivePic} alt="Responsive" />
-        </div>
-        <div>
-            <div>
+            <div className='ResponsiveImgContainer'>
+                <img src= {responsivePic} alt="Responsive" />
+            </div>
+            <div className='quatre'>
                 <h2>
                     Compatible Iphone , Android & Windows Phone
                 </h2>
@@ -46,7 +46,7 @@ export default function responsive() {
                     s'adaptent automatiquement.
                 </p>
             </div>
-            <div>
+            <div className='cinq'>
                 <h2>
                     Expérience Utilisateur Ergonomique
                 </h2>
@@ -54,7 +54,7 @@ export default function responsive() {
                     Une ergonomie optimale pour un meilleur confort - Rapidité d'affichage - Navigation sécurisée.
                 </p>
             </div>
-            <div>
+            <div className='six'>
                 <h2>
                     Préconisé Par Google
                 </h2>
@@ -63,7 +63,7 @@ export default function responsive() {
                     En respectant cette règle vous aurez, automatiquement, un meilleur référencement naturel (SEO).
                   </p>
             </div>
-        </div>
+    </div>
     </div>
   )
 }
