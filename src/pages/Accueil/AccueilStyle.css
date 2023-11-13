@@ -301,4 +301,5 @@
 .six {
     grid-column: 3;
     grid-row: 3;
+    grid-template-columns: auto;
 } 
