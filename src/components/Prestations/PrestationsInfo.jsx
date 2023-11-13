@@ -1,7 +1,7 @@
 import Button from "../Button/Button";
 const PrestationsInfo = () => {
   return (
-    <div>
+    <div className="mb-16">
       <h2 className="mb-3 text-3xl font-extrabold text-secondary">
         Les prestations de votre agence web de Lille.
       </h2>
