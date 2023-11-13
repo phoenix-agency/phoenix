@@ -15,6 +15,11 @@ export default function partner() {
             sera reconnue pour sa qualité.
             </p>
         </div>
+        <p>
+            Nos partenaires :
+          </p>
+          </div>
+        <div className='PartnerImgContainer'>
         <div className='PartnerImgContainer'>
             <img src={partnerPic} alt="PartnerImg" />
         </div>
