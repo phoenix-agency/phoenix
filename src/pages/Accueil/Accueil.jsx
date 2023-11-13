@@ -12,9 +12,8 @@ export default function Accueil() {
     <div>
       <Society />
       <CloseToC />
+      <NosPrestationsWebDigitales />
       <SiDifferent />
-      <ReaAgence />
-      <NosPrestations />
       <Partner />
       <Responsive />
       <NosClients />

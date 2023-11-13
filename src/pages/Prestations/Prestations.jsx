@@ -1,8 +1,8 @@
-import NosPrestations from "../../components/Prestations/NosPrestations";
-import PrestationsInfo from "../../components/Prestations/PrestationsInfo";
-import Prestataire from "../../components/Prestations/Prestataire";
-import Mobiles from "../../components/Prestations/Mobiles";
-import SavoirPlus from "../../components/Prestations/SavoirPlus";
+import NosPrestations from "../../components/NosPrestations/NosPrestations";
+import PrestationsInfo from "../../components/PrestationsInfo/PrestationsInfo";
+import Prestataire from "../../components/Prestataire/Prestataire";
+import Mobiles from "../../components/Mobiles/Mobiles";
+import SavoirPlus from "../../components/SavoirPlus/SavoirPlus";
 function Prestations() {
   return (
     <div>
