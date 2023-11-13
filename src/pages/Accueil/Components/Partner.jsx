@@ -18,5 +18,6 @@ export default function partner() {
             <img src={partnerPic} alt="Illustration partenaire" />
         </div>
     </div>
+    </div>
   )
 }
