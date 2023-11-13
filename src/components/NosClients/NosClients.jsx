@@ -17,7 +17,7 @@ const NosClients = () => {
         <div className="pt-4 grid grid-flow-row gap-x-4 gap-y-6 md:grid-cols-3 ">
           <div className="bg-gray-200 flex justify-center items-center h-72 w-90 md:h-52">
             <img
-              className="h-44 hover:scale-110 duration-200 md:h-28"
+              className="h-56 hover:scale-110 duration-200 md:h-28"
               src={ima}
               alt="Institut du monde arabe Tourcoing"
             />
