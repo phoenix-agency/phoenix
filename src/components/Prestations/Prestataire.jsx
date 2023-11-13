@@ -11,7 +11,7 @@ function Prestataire() {
         <h2 className="text-4xl font-extrabold text-secondary mb-4 pt-32">
           Prestataire IT & Web
         </h2>
-        <p className=" text-gray-light mb-24 mx-48 text-center">
+        <p className=" text-gray-light mb-24 mx-auto text-center">
           Vous l&apos;aurez compris, la SAS WEBAGENCELILLE.COM ne fait pas que
           du web elle fait aussi de l&apos;installation de parc informatique et
           du conseil en numérique.

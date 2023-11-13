@@ -90,7 +90,7 @@ function NosPrestations() {
                 <FilterSVG />
               </div>
             </div>
-            <h2 className="text-2xl text-secondary mb-3">
+            <h2 className="text-2xl text-secondary mb-3 ">
               Référencement Naturel
             </h2>
             <p className="text-gray-light">
