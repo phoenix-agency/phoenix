@@ -1,7 +1,7 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Logo from './NavbarPictures/LogoBlanc.png';
+import Logo from './../../assets/LogoBlanc.png';
 import ListePresta from './ListePresta';
 import ListeContact from './ListeContact';
 
