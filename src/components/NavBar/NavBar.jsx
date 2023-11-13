@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Logo from './../../assets/LogoBlanc.png';
 import ListePresta from './ListePresta';
 import ListeContact from './ListeContact';
+import Loupe from './../../assets/svg/Loupe';
 
 
 export default function NavBar() {
@@ -24,7 +25,8 @@ export default function NavBar() {
         <Link to="/contacts" onMouseEnter={() => setShowContactList(true)}
         onMouseLeave={() => setShowContactList(false)}>Contacts
         {showContactList && <ListeContact />}
-        </Link>       
+        </Link>
+        <Loupe />  
       </div>
     </nav>
   );

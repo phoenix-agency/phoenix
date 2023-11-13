@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 1vh;
-    padding-bottom: 1vh;
     background-color: #7C61D6;
     color: white;
     font-size: 1.5em;
@@ -32,18 +31,26 @@
 .ListeContact {
     position: absolute;
     top: 100%;
-    right: 0;
-    margin-right: 1vh;
+    right: 100px;
     padding: 2vh;
     display: inline-block;
-    justify-content: space-evenly;
     background-color: white;
     color: #585E68;
     z-index: 1;
     font-size: 0.8em;
-
 }
+
 .Logo {
     width: 20vh;
 }
 
+.Loupe {
+    cursor: pointer;
+    background-color: #33E2A0;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
