@@ -1,9 +1,5 @@
-import AgencyLille from "./Components-Presentation/AgencyLille"
+import React from 'react';
 
 export default function Presentation() {
-	return (
-		<div>
-            <AgencyLille/>
-        </div>
-	)
+	return <div>Presentation</div>;
 }

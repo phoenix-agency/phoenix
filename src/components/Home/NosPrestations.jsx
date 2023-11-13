@@ -16,7 +16,7 @@ const NosPrestations = () => {
         marketing des réseaux sociaux (Social Média Marketing) et bien plus
         encore.
       </p>
-      <div className="text-center mx-6 pt-9 grid grid-flow-row gap-8 md:grid-cols-2">
+      <div className="mx-6 pt-5 grid grid-flow-row gap-8 sm:grid-cols-2">
         <div className="p-14 border border-gray-200 grid grid-flow-row justify-items-center hover:border-primary duration-300">
           <img
             className="h-52 hover:scale-105 duration-200"
@@ -26,7 +26,7 @@ const NosPrestations = () => {
           <h3 className="text-2xl uppercase text-secondary font-semibold my-4">
             Conception de site internet
           </h3>
-          <p className="text-gray-dark">
+          <p className="text-gray-dark text-center">
             Posséder un site internet inimitable est un incontournable. Il
             représente votre entreprise et vos valeurs. Il est un incroyable
             accélérateur de business.
@@ -42,7 +42,7 @@ const NosPrestations = () => {
           <h3 className="text-2xl uppercase text-secondary font-semibold my-4">
             Développement web
           </h3>
-          <p className="text-gray-dark">
+          <p className="text-gray-dark text-center">
             Nous serons un renfort technique et technologique pour la
             communication de votre entreprise au travers le déploiement de
             technologies modernes, robustes et sécurisées.
@@ -58,7 +58,7 @@ const NosPrestations = () => {
           <h3 className="text-2xl uppercase text-secondary font-semibold my-4">
             Optimisation seo
           </h3>
-          <p className="text-gray-dark">
+          <p className="text-gray-dark text-center">
             Webagencelille.com est destinée aux clients qui ont la nécessité
             d&apos;un accompagnement intensif et complet en référencement
             naturel, Accélération d&apos;affichage du site, optimisation du code
@@ -75,7 +75,7 @@ const NosPrestations = () => {
           <h3 className="text-2xl uppercase text-secondary font-semibold my-4">
             Social media marketing
           </h3>
-          <p className="text-gray-dark">
+          <p className="text-gray-dark text-center">
             Une aide précieuse pour vos démarches avec les publicités et la
             communication sur les réseaux sociaux.
           </p>
