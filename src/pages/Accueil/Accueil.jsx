@@ -3,7 +3,7 @@ import Society from "./Components/Society.jsx";
 import CloseToC from "./Components/CloseToC.jsx";
 import Partner from "./Components/Partner.jsx";
 import Responsive from "./Components/Responsive.jsx";
-import NosPrestations from "../../components/NosPrestations/NosPrestations.jsx";
+import NosPrestationsWebDigitales from "../../components/NosPrestationsPageAccueil/NosPrestationsWebDigitales.jsx";
 import SiDifferent from "./Components/SiDifferent.jsx";
 import ReaAgence from "./Components/ReaAgence.jsx";
 
@@ -12,7 +12,7 @@ export default function Accueil() {
     <div>
       <Society />
       <CloseToC />
-      <NosPrestations />
+      <NosPrestationsWebDigitales />
       <SiDifferent />
       <Partner />
       <Responsive />

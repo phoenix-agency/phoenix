@@ -16,7 +16,6 @@ function Prestataire() {
           du web elle fait aussi de l&apos;installation de parc informatique et
           du conseil en numérique.
         </p>
-        {/* <div className="grid grid-flow-row gap-12 md:flex flex-col justify-center text-center"> */}
         <div className="grid grid-flow-row gap-12 lg:grid-flow-col justify-center text-center md:grid-cols-2">
           <div className="h-1/3 grid grid-flow-row justify-items-center px-4">
             <img
@@ -50,10 +49,6 @@ function Prestataire() {
           </div>
         </div>
       </div>
-
-      {/* <button class="bg-primary text-sm text-white uppercase py-2 px-6 font-medium rounded-xl hover:bg-secondary transition-all duration-300">
-        Je veux en savoir plus
-      </button> */}
     </div>
   );
 }
