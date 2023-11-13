@@ -12,11 +12,11 @@ export default function Accueil() {
     <div>
       <Society />
       <CloseToC />
-      <NosPrestations />
       <SiDifferent />
+      <ReaAgence />
+      <NosPrestations />
       <Partner />
       <Responsive />
-      <ReaAgence />
       <NosClients />
     </div>
   );

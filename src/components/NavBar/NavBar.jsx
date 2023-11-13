@@ -15,7 +15,7 @@ export default function NavBar() {
       <div className="Navbar">
         <Link to="/"><img src={Logo} alt="logo" className='Logo' /></Link> 
         <Link to="/">Accueil</Link>
-        <Link to="/presentation">Qui sommes-nous</Link>
+        <Link to="/presentation">Présentation</Link>
         <Link to='/prestations' onMouseEnter={() => setShowPrestaList(true)}
           onMouseLeave={() => setShowPrestaList(false)}>Prestations
           {showPrestaList && <ListePresta />}

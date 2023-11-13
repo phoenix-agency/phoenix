@@ -1,10 +1,11 @@
+import React from 'react'
 import partnerPic from './ComponentsPic/Partner.png'
 
 export default function partner() {
   return (
-    <div className='elementor-container elementor-column-gap-default' >
-      <div className='elementor-row'>
-        <div className='PartnerContainer'>
+    <div>
+      <div className='PartnerContainer'>
+        <div className='PartnerPresentation'>
             <h1>Votre véritable partenaire de business</h1>
             <p>
             Nous créons des sites web avec des fonctionnalités qui vous permettront de 
@@ -14,10 +15,10 @@ export default function partner() {
             sera reconnue pour sa qualité.
             </p>
         </div>
-        <div>
-            <img src={partnerPic} alt="Illustration partenaire" />
+        <div className='PartnerImgContainer'>
+            <img src={partnerPic} alt="PartnerImg" />
         </div>
-    </div>
+        </div>
     </div>
   )
 }
