@@ -4,6 +4,7 @@ import RocketChatSvg from "../../assets/svg/RocketChatSvg";
 import UserSVG from "../../assets/svg/UserSVG";
 import WordpressSVG from "../../assets/svg/WordpressSVG";
 import FilterSVG from "../../assets/svg/FilterSvg";
+
 import Button2 from "../Button/Button2";
 
 function NosPrestations() {
