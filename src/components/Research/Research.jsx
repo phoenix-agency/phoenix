@@ -6,7 +6,7 @@ function Research () {
     return (
         <div className="Research-Container">
             <ul className="Research">
-                <li><CloseButton /></li>
+                <li className="Research-Close"><CloseButton /></li>
                 <li className="Research-box">
                     <input className="Research-Holder" placeholder="Recherche" />
                     <Loupe/>

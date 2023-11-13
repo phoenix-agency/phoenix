@@ -17,20 +17,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background: rgba(27,29,34,.95);
+    background: rgba(27,29,34,.70);
   }
   
   .Research-box {
     display: flex;
     align-items: center;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-bottom: 1vh;
+    border-bottom: 1px solid #585e68;
   }
 
   .Research-Holder {
     border: none;
     outline: none;
-    background: rgba(27,29,34,.95);
+    background: rgba(27,29,34,.70);
+  }
+
+  .Research-Close {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vh;
   }
   
   /* #585e68*/
