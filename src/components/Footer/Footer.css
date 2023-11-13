@@ -1,0 +1,52 @@
+.FooterPic{
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    margin : 5px;
+
+}
+
+
+.Projet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #7C61D6;
+    color: white;
+}
+.Projet h1{
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.Projet h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.Projet p{
+    text-align: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    font-size: large;
+    
+}
+
+.Apropos{
+    background-color: #7C61D6;
+}
+

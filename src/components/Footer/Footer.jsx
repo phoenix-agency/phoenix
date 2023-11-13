@@ -1,16 +1,20 @@
 import ButtonContact from '../ButtonContact/ButtonContact'
 import { Link } from 'react-router-dom'
+import './Footer.css'
+import FooterPic from '../../assets/FooterPic.png'
 
 export default function Footer() {
   return (
     <div>
-      <section className="footer">
-        <h2>
+      
+      <section className="Projet">
+      <img src={FooterPic} alt="FooterPic" className='FooterPic'/>
+        <h1>
           Qu’attendez-vous pour commencer votre projet ?
-        </h2>
-        <h3>
+        </h1>
+        <h2>
           Nous vous aiderons à atteindre vos objectifs et à développer votre entreprise sur internet.
-        </h3>
+        </h2>
         <p>
           Nous mettons l’accent sur l’ergonomie et la facilité d’utilisation.
         </p>
@@ -25,9 +29,9 @@ export default function Footer() {
         </p>
         <ButtonContact />
       </section>
-      <section>
+      <section className="Apropos">
         <div>
-          <h3>À PROPOS DE VOTRE AGENCE WEB DE LILLE</h3>
+          <h2>À PROPOS DE VOTRE AGENCE WEB DE LILLE</h2>
           <p>
           Webagencelille.com est une agence web lilloise spécialisée dans la conception de sites internet sécurisés. 
           Notre entreprise du web couvre un large inventaire de service informatique 
