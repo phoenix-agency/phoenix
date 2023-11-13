@@ -1,187 +1,191 @@
-/** Style Component Society **/
+/** Style Container **/
 
 .SocietyContainer {
     display: flex;
     background-color: #7C61D6;
-    padding: 10vh;
-    justify-content: space-between;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
-.SocietyPresentation {
-    width: 100%;
-}
-
-.SocietyPic {
-    width: 100vh;
-}
-
-.SocietyTitle, .SocietyText, .DiscoverButton {
-    color: white;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-}
-
-.SocietyText, .DiscoverButton {
-    font-size: 1.5em;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-}
-
-.SocietyTitle {
-    font-size: 3.5em;
-}
-
-.DiscoverButton {
-    background-color: #33E2A0;
-    padding: 1vh;
-    border-radius: 45px;
-}
-
-
-/** Style Component CloseToC **/
 
 .CloseToCContainer {
     display: flex;
     background-color: white;
-    padding: 10vh;
     justify-content: space-between;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
-.CloseToCPresentation {
-    width: 100%;
-}
-
-.CloseToPic {
-    width: 100vh;
-}
-.CloseToCTitle {
-    font-size: 3.5em;
-    color: #1B0E3D;
-}
-
-.CloseToCText {
-    width: 50%;
-    font-size: 1.5em;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-    color: #585E68;
-}
-
-.Slogan {
-    font-size: 2em;
-    text-align: center;
-}
-
-/** Style Component SiDifferent **/
 
 .DifferenceContainer {
     display: flex;
     flex-direction: column;
     background-color: white;
+    justify-content: space-evenly;
+    padding-right: 15vh;
+    padding-left: 15vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.ReaAgenceContainer {
+    display: flex;
+    justify-content: center;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    justify-content: space-evenly;
 }
 
-.DifferencePresentation {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 5vh;
-}
-
-.DifferenceTitle {
-    font-size: 3.5em;
-    color: #1B0E3D;
-}
-
-.DifferenceText {
-    width: 50%;
-    font-size: 1.5em;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-    color: #585E68;
-    text-align: center;
-}
 .MenuContainer {
     display: flex;
     justify-content: space-evenly;
 }
 
-.MenuDeroulant {
+.PartnerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+
+.ResponsiveContainer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 2.5em;
-    padding-right: 15vh;
-    padding-left: 15vh;
+    background-color: #7C61D6;;
+    padding-right: 20vh;
+    padding-left: 20vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
-.menu-item {
-    color: #1A264A; 
-    font-size: 1em;
-    padding: 6vh;
-}
-
-.menu-item.selected {
-    background-color: #33E2A0;
-    padding: 6vh;
-}
-
-
-.TexteClique {
-    font-size: 25px;
-    margin-top: 5vh;
-    background-color: #33E2A0;
-    color: white;
-}
-.DifferenceImg {
-    height: 50vh;
-}
-  
-
-/** Style Component ReaAgence **/
-
-.ReaAgenceContainer {
+.Responsive{
     display: flex;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-.ReaPresentation {
-    width: 30%;
+.ListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40vh;
+}
+/** Style pour Titre et texte **/
+
+.Title {
+    font-size: 44px;
 }
 
-.ReaPic {
-    width: 100vh;
+.SubTitle {
+    font-size: 24px;
+    padding-left: 5vh;
 }
 
-.ReaTitle, .ReaText, .ReaDiscoverButton {
-    color: #585E68;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+.SubTitle-NoPadding {
+    font-size: 24px;
 }
 
-.ReaText, .ReaDiscoverButton {
-    font-size: 1.5em;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
+.Text { 
+    font-size: 18px;
 }
 
-.ReaTitle {
-    color: #1B0E3D;
-    font-size: 3.5em;
+.AlignCenter {
+    text-align: center;
 }
 
-.ReaDiscoverButton {
-    background-color: #33E2A0;
-    padding: 1vh;
-    border-radius: 45px;
+.Slogan {
+    text-align: center;
+    font-size: 24px;
+    color: #2C2C51;
+}
+
+.White {
     color: white;
+}
+
+.Blue {
+    color: #1B0E3D;
+}
+
+.Grey {
+    color: #8B8BA3;
+}
+
+
+
+/** Style Etiquettes**/
+
+.Presentation-FlexStart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-left: 10vh;
+    padding-right: 10vh ;
+}
+
+.Presentation-Center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/** Margin et Padding **/
+
+.SmallBlock {
+    padding-left: 50vh;
+    padding-right: 50vh ;
+    margin-bottom: 5vh;
+}
+
+.MarginTop {
+    margin-top: 3vh;
+}
+
+.MediumWidth {
+    width: 60%;
+}
+
+.SmallWidth {
+    width: 40%;
+}
+
+.MarginText {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+/** Style Bouton **/
+
+.Button {
+    background-color: #33E2A0;
+    border-radius: 45px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+/** Style Menu Deroulant **/
+
+.selected.menu-item {
+    background-color: #33E2A0;
+    font-size: 24px;
+    color: #1B0E3D;
+    padding: 5vh;
+}
+
+.MenuDeroulant {
+    width: 30%;
 }
 .PartnerContainer {
     display: grid;

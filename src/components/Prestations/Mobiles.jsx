@@ -4,7 +4,9 @@ import GiftSvg from "../../assets/svg/GiftSvg";
 function Mobiles() {
   return (
     <div>
-      <h2>Un Site Internet Totalement Adapté aux Mobiles</h2>
+      <h2 className="mt-16 text-4xl font-extrabold text-secondary">
+        Un Site Internet Totalement Adapté aux Mobiles
+      </h2>
       <div className="grid grid-flow-row">
         <div>
           <div className="flex">
