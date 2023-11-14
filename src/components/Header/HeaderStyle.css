@@ -1,9 +1,42 @@
 .Header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #13112D;
     color: white;
     font-size: 1.5vh;
     padding-top: 1vh;
     padding-bottom: 1vh;
+}
+
+.HeaderContainer {
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Border {
+    border-right: 1px solid #585E68;
+    border-left: 1px solid #585E68;
+}
+
+.Padding {
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+
+.Grey {
+    color: #585E68;
+}
+
+.Row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Width10 {
+    width: 10%;
+}
+
+.Width17 {
+    width: 17%;
 }
