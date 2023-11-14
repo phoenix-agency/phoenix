@@ -124,6 +124,7 @@
     color: #1A264A; 
     font-size: 1em;
     padding: 6vh;
+    cursor: pointer;
 }
 
 .menu-item.selected {
