@@ -1,5 +1,10 @@
-import React from 'react';
+import React from "react";
+import Philosophie from "../../components/Philosophie/Philosophie";
 
 export default function Presentation() {
-	return <div>Presentation</div>;
+  return (
+    <div>
+      <Philosophie />
+    </div>
+  );
 }

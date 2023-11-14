@@ -27,7 +27,7 @@ const FormRDV = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className='bg-white'>
       <label>
         Nom complet :
         <input
