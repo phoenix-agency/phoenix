@@ -2,6 +2,7 @@ import ButtonContact from '../ButtonContact/ButtonContact'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 import FooterPic from '../../assets/FooterPic.png'
+import ActivateurPic from '../../assets/Activateur-France-Num.jpg'
 
 export default function Footer() {
   return (
@@ -44,7 +45,7 @@ export default function Footer() {
           </p>
           </div>
           <div>
-            <h3>AGENCE WEB HAUT-DE-FRANCE</h3>
+            <h3>Agence web Haut-de-France</h3>
             <p>
               <ul>
                 <li><a href="">Agence web et entreprise du web à Douai</a></li>
@@ -59,7 +60,19 @@ export default function Footer() {
           </div>
           <div>
             <h3>Entreprise France Numérique Nord</h3>
-            
+            <div className='Activateur'>
+            <div className='ActivateurPic'>
+              <img src={ActivateurPic} alt="ActivateurPic" className='ActivateurPic'/>
+            </div>
+            <div className='ActivateurText'>
+            <a href="">
+              Notre entreprise du web participe et est reconnue par le gouvernement comme 
+              étant France numérique. Nous apportons notre soutien aux entreprises 
+              en difficultés par le COVID-19.
+              </a>
+            </div>
+            </div>
+
           </div>
         <div className='Apropos'>
           <h3>À PROPOS DE VOTRE AGENCE WEB DE LILLE</h3>
@@ -69,17 +82,9 @@ export default function Footer() {
           (conception et développement web, administration, sécurisation et configuration de serveur web, formations, 
           installation et réparation de parc informatique)
           </p>
-          <h4>
-          Les archives de votre agence web de lille
-          </h4>
-         <ul>
-          {/* Mettre les liens */}
-            <li>Prestataire de référencement Naturel à Lille</li>
-            <li>Agence web création de site internet à Lille pour les entreprises</li>
-         </ul>
         </div>
       <div className='Help'>
-        <h3>Besoin d&apos;aide ?</h3>
+        <h3>BESION D&apos;AIDE ?</h3>
         <ul>
           <li>
             <Link to="/rendezvous">Besoin d&apos;un Rendez-Vous?</Link>
