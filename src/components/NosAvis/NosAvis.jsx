@@ -23,7 +23,7 @@ function nosAvis() {
                             Nous sommes ravis de la beauté du site, de son ergonomie, de ses fonctionnalités, pour son administration, de sa rapidité.
                         </p>
                     </div>
-                    <div className="Flex  MarginTop50">
+                    <div className="JustifyContentCenter MarginTop50">
                         <div className="AuthorProfilPic">
                             <img src={AvatarSimon} alt="Avatar de Simon" className="Avatar"/>
                         </div>
@@ -45,7 +45,7 @@ function nosAvis() {
                         ALPHAZUR crée une expérience inédite grâce aux ressources infinies de cette agence hors du commun.
                         </p>
                     </div>
-                    <div className="Flex">
+                    <div className="JustifyContentCenter MarginTop50">
                         <div className="AuthorProfilPic">
                             <img src={AvatarDavid} alt="Avatar de David" className="Avatar"/>
                         </div>
@@ -61,7 +61,7 @@ function nosAvis() {
                         Je recommande l&apos;agence pour son professionnalisme, à l&apos;écoute de vos attentes, agrémenté de conseils personnalisés pour des résultats adaptés aux besoins des entreprises.
                         </p>
                     </div>
-                    <div className="Flex  MarginTop50">
+                    <div className="JustifyContentCenter MarginTop50">
                         <div className="AuthorProfilPic">
                             <img src={AvatarAurelie} alt="Avatar de Aurélie" className="Avatar"/>
                         </div>
@@ -77,7 +77,7 @@ function nosAvis() {
                             Excellent travail de la part de l&apos;Agence, réalisation sur mesure ne manquant pas de créativité, efficacité, disponible à toutes heures, webmaster sympathique et dynamique.
                         </p>
                     </div>
-                    <div className="Flex">
+                    <div className="JustifyContentCenter MarginTop50">
                         <div className="AuthorProfilPic">
                             <img src={AvatarThierry} alt="Avatar de Thierry" className="Avatar"/>
                         </div>
@@ -96,7 +96,7 @@ function nosAvis() {
                                 et nous aiguiller sur un projet peu évident.
                             </p>
                         </div>
-                        <div className="Flex  MarginTop50">
+                        <div className="JustifyContentCenter MarginTop50">
                             <div className="AuthorProfilPic">
                                 <img src={AvatarTheo} alt="Avatar de Theo" className="Avatar"/>
                             </div>
@@ -114,7 +114,7 @@ function nosAvis() {
                                 Je recommande fortement Webagencelille !
                             </p>
                         </div>
-                        <div className="Flex">
+                        <div className="JustifyContentCenter MarginTop50">
                             <div className="AuthorProfilPic">
                                 <img src={AvatarQuentin} alt="Avatar de David" className="Avatar"/>
                             </div>

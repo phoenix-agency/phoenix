@@ -17,6 +17,10 @@
     display: flex;
 }
 
+.JustifyContentCenter {
+    display: flex;
+    justify-content: center;
+}
 
 .FlexColumn {
     display: flex;
