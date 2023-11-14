@@ -6,6 +6,7 @@ import Responsive from "../../components/Responsive/Responsive.jsx";
 import NosPrestationsWebDigitales from "../../components/NosPrestationsPageAccueil/NosPrestationsWebDigitales.jsx";
 import SiDifferent from "../../components/SiDifferent/SiDifferent.jsx";
 import ReaAgence from "../../components/ReaAgence/ReaAgence.jsx";
+import NosAvis from "../../components/NosAvis/NosAvis.jsx";
 
 export default function Accueil() {
   return (
@@ -18,6 +19,7 @@ export default function Accueil() {
       <Partner />
       <Responsive />
       <NosClients />
+      <NosAvis />
     </div>
   );
 }
