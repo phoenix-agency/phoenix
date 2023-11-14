@@ -29,9 +29,40 @@ export default function Footer() {
         </p>
         <ButtonContact />
       </section>
-      <section className="Apropos">
-        <div>
-          <h2>À PROPOS DE VOTRE AGENCE WEB DE LILLE</h2>
+      <section className="About">
+        <div className='AgenceLille'>
+          <h3>AGENCE WEB A LILLE <br/>
+              SAS WEBAGENCELILLE.COM
+          </h3>
+          <p>
+            SIREN : 820 037 315 <br/>
+            Organisme assuré HISCOX <br/>
+            Adresse: 5 Ter, Rue Du Vieux Faubourg, <br />
+            59000 Lille <br />
+            Tél: 04 70 60 60 60 <br />
+            Email : 0hj7I@example.com <br />
+          </p>
+          </div>
+          <div>
+            <h3>AGENCE WEB HAUT-DE-FRANCE</h3>
+            <p>
+              <ul>
+                <li><a href="">Agence web et entreprise du web à Douai</a></li>
+                <li><a href="">Agence web et entreprise du web à Arras</a></li>
+                <li><a href="">Entreprise du web européenne</a></li>
+                <li><a href="">Web marketing communiquez autrement avec la réalité virtuelle</a></li>
+                <li><a href="">Sound design & sound designer à Lille</a></li>
+                <li><a href="">Entreprise conforme RGPD à Lille</a></li>
+                <li><a href="">Dispositif d’aide COVID-19 à Lille</a></li>
+              </ul>
+            </p>
+          </div>
+          <div>
+            <h3>Entreprise France Numérique Nord</h3>
+            
+          </div>
+        <div className='Apropos'>
+          <h3>À PROPOS DE VOTRE AGENCE WEB DE LILLE</h3>
           <p>
           Webagencelille.com est une agence web lilloise spécialisée dans la conception de sites internet sécurisés. 
           Notre entreprise du web couvre un large inventaire de service informatique 
@@ -47,7 +78,7 @@ export default function Footer() {
             <li>Agence web création de site internet à Lille pour les entreprises</li>
          </ul>
         </div>
-      <div>
+      <div className='Help'>
         <h3>Besoin d&apos;aide ?</h3>
         <ul>
           <li>
@@ -67,7 +98,7 @@ export default function Footer() {
           </li>
         </ul>
         </div>
-        <div>
+        <div className='SocialMedias'>
           <h3>
             Rejoignez-nous sur les réseaux
           </h3>
