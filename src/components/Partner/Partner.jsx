@@ -1,4 +1,3 @@
-import React from 'react';
 import partnerPic from '../../assets/Partner.png';
 
 export default function partner() {
@@ -10,7 +9,7 @@ export default function partner() {
 					<p>
 						Nous créons des sites web avec des fonctionnalités qui vous permettront de
 						proposer à vos prospects des réponses concrètes à leurs recherches. En plus
-						d’un référencement naturel pertinent nous sécurisons tous les échanges entre
+						d&apos;un référencement naturel pertinent nous sécurisons tous les échanges entre
 						vos visiteurs et votre site internet. Ainsi votre marque ou votre entreprise
 						sera reconnue pour sa qualité.
 					</p>

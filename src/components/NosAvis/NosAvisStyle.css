@@ -1,0 +1,100 @@
+.AvisPresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.ReviewContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.Flex {
+    display: flex;
+}
+
+.JustifyContentCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.FlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.FlexColumnReverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.AlignItemsCenter {
+    align-items: center;}
+
+.Width40 {
+    width: 40%;
+}
+
+.Avatar {
+    width: 75px;
+    height: 75px;
+    border-radius: 999px;
+}
+
+.MarginTopBottom {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+
+
+/** Style Police, Couleur, Taille **/
+
+.AuthorDetails {
+    padding: 0 55px 0 55px;
+}
+
+
+.AuthorName {
+    color: #33e2a0;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Review {
+    padding: 25px 55px 25px 55px;
+    background-color: #7c61d6;
+}
+
+.SectionTitle {
+    color: #1b0e3d;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.SectionText {
+    text-align: center;
+    color: #686868;
+    font-size: 16px;
+}
+
+.TextReview {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 2em;
+}
+
+.MarginBottom50 {
+    margin-bottom: 50px;
+}
+
+.MarginTop50 {
+    margin-top: 50px;
+}
