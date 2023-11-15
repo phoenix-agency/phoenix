@@ -1,6 +1,16 @@
-.PageRendezVous{
+/* .PageRendezVous{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1;
+} */
+.PageRendezVous{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    flex: 1;
 }
 
 .title h5{
@@ -19,9 +29,21 @@
 
 }
 
+.text{
+    flex: 1;
+}
 .text p{
     color: #33E2A0;
     font-size: 1.3em;
     line-height: 1.5em;
     margin: 5vh;
+}
+
+.FormRDV{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
 }

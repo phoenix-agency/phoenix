@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './FormRDV.css';
 
 const FormRDV = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,8 @@ const FormRDV = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='bg-white'>
+    <div  className='FormRDV w-full'>
+    <form onSubmit={handleSubmit}>
       <label>
         Nom complet :
         <input
@@ -69,6 +71,7 @@ const FormRDV = () => {
       <br />
       <button type="submit">Prendre rendez-vous</button>
     </form>
+    </div>
   );
 };
 

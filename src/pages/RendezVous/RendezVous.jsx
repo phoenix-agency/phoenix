@@ -4,6 +4,7 @@ import './RendezVous.css'
 
 export default function RendezVous() {
   return (
+    <div>
     <div className='PageRendezVous bg-[#7C61D6]'>
       <div className="title"> 
         <h5>Nous Serons Heureux De Vous Aider</h5>
@@ -22,7 +23,10 @@ export default function RendezVous() {
         Deux options de rendez-vous s’offrent à vous : Un rendez-vous téléphonique ou une visioconférence.
         </p>
       </div>
+    </div>
+      <div>
       <FormRDV/>
+      </div>
     </div>
   )
 }
