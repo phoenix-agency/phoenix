@@ -1,0 +1,27 @@
+.PageRendezVous{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.title h5{
+    color: #33E2A0;
+    margin-top: 5vh;
+    font-size: larger;
+}
+
+.title p{
+    color: white;
+    font-size: 3em;
+    line-height: 1em;
+    margin-right: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+
+}
+
+.text p{
+    color: #33E2A0;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    margin: 5vh;
+}
