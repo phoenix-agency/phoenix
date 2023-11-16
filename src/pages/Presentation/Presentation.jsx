@@ -3,6 +3,7 @@ import DesignDeveloppement from "../../components/DesignDeveloppement/DesignDeve
 import Mission from "../../components/Mission/Mission";
 import AgenceDigitale from "../../components/AgenceDigitale/AgenceDigitale";
 import WebLover from "../../components/WebLover/WebLover";
+import HiddenFace from "../../components/HiddenFace/HiddenFace";
 export default function Presentation() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function Presentation() {
       <WebLover />
       <Philosophie />
       <Mission />
+      <HiddenFace />
       <DesignDeveloppement />
     </div>
   );

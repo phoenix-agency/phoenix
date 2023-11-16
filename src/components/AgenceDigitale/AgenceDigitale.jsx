@@ -5,7 +5,7 @@ function agenceDigitale() {
         <div>
             <div className='DigitalAgencyArticle'>
                 <div className='DigitalAgencyPresentation'>
-                    <h1 className='Title'>Nous Sommes Une Agence De Communication Digitale À Lille</h1>
+                    <h1 className='TitleAgency'>Nous Sommes Une Agence De Communication Digitale À Lille</h1>
                     <p className='Text'>Passionnés Par Le Design Et Le Digital</p>
                     <button className='ButtonPurple'>En savoir plus</button>
                 </div>
