@@ -44,22 +44,22 @@ form {
     max-width: 500px;
   }
 
-  /* select {
+  select {
     width: 100px;
     height: 30px;
     border: #ccc solid 1px;
     border-radius: 4px;
     margin-right: 5px;
-  } */
+  }
 
-  /* input {
+  input {
     width: 400px;
     height: 30px;
     border: #ccc solid 1px;
     border-radius: 4px;
     margin-right: 5px;
     background-color: #33E2A0;
-  } */
+  }
 
 .form-id input{
     width: 400px;
