@@ -10,6 +10,7 @@
 .PageFormRDV h5{
     font-size: larger;
     margin: 5vh;
+    padding-top: 10vh;
 }
 
 .PageFormRDV h2{
@@ -17,6 +18,7 @@
     line-height: 1em;
     justify-content: space-around;
     text-align: center;
+    padding-bottom: 10vh;
 
 }
 
@@ -40,12 +42,33 @@
     align-items: center;
     justify-content: center;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+
  }
 
- .ContactEtDispo{
+
+ .ContactEtDispo1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border-top: #ccc solid 1px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+     
+ }
+ .ContactEtDispo2{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30vh;
     margin: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    border-top: #ccc solid 1px;
+ }
+
+ .ContactEtDispo2 h6{
+     font-weight: bold;
  }

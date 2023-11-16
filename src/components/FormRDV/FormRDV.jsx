@@ -69,6 +69,7 @@ const FormRDV = () => {
       <br />
       <button type="submit" className='buttonRDV'>Prendre rendez-vous</button>
     </form>
+    <div className='ContactEtDispo1'>
     <h5>Vous n'avez pas besoin de conseils ?</h5>
     <h2>
       Contactez-nous directement si vous<br/>
@@ -76,7 +77,8 @@ const FormRDV = () => {
       votre site internet son référencement et sa <br/>
       sécurisation.
     </h2>
-    <div className='ContactEtDispo'>
+    </div>
+    <div className='ContactEtDispo2'>
       <div>
         <h6>Téléphone</h6>
         <p>01 23 45 67 89</p>
