@@ -1,0 +1,23 @@
+.WebLoverContainer {
+    display: flex;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.DigitalLover {
+    width: 60%;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.TitlePurple {
+    font-size: 3.5em;
+    color: #7C61D6;
+}
+
+.TitleGreen {
+    font-size: 3.5em;
+    color: #33e2a0;
+}
