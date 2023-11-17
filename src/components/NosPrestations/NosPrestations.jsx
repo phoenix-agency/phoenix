@@ -13,7 +13,7 @@ function NosPrestations() {
       <h2 className=" pb-6 text-4xl font-extrabold text-white text-center">
         Nos Prestations
       </h2>
-      <div className="px-48 text-center grid grid-cols-3 pb-32 pt-5 gap-12">
+      <div className="px-48 md:px-5 md:gap-4 text-center grid grid-cols-3 pb-32 pt-5 gap-12">
         <div className="flex flex-col h-full">
           <div className="h-full bg-white rounded-3xl px-6 pt-6 pb-14 hover:rounded-none hover:border hover:border-primary transition-all duration-300">
             <div className="flex justify-center p-7">
