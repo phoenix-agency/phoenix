@@ -1,0 +1,56 @@
+.HiddenFacePresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.HiddenFaceDetails {
+    display: flex;
+    margin-left: 15vh;
+    margin-right: 30vh;
+}
+
+.HiddenFaceMissions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15vh;
+    margin-right: 50vh;
+
+}
+
+.MissionsDetails {
+    display: flex;
+    width: 80%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.Margin2 {
+    margin-left: 2vh;
+}
+
+.HiddenFacePic {
+    width: 30%;
+}
+
+.ParagrapheHiddenFace {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.Margin10 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+/** Size, Font, Background, color **/
+
+.PresentationTitle {
+    font-size: 3.5em;
+    color: #1B0E3D;
+}
+
+.HiddenFaceSubTitle {
+    color: #2c2c51;
+    font-weight: 600;
+}
