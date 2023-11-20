@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './FormRDV.css';
 
 const FormRDV = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,14 @@ const FormRDV = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='bg-white'>
+    <div  className='PageFormRDV w-full'>
+      <h5>Vous souhaitez des conseils ?</h5>
+      <h2>
+        Inscrivez-vous sur ce calendrier pour <br/>
+        demander votre rendez-vous et complétez <br/> 
+        le formulaire qui suit.
+      </h2>
+    <form onSubmit={handleSubmit} className='FormRDV'>
       <label>
         Nom complet :
         <input
@@ -35,6 +43,7 @@ const FormRDV = () => {
           name="fullName"
           value={formData.fullName}
           onChange={handleChange}
+          className="NomComplet"
         />
       </label>
       <br />
@@ -51,24 +60,42 @@ const FormRDV = () => {
       <label>
         Date du rendez-vous :
         <input
-          type="datetime-local"
+          type="date"
           name="dateRDV"
           value={formData.dateRDV}
           onChange={handleChange}
         />
       </label>
       <br />
-      <label>
-        Message :
-        <textarea
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-        />
-      </label>
-      <br />
-      <button type="submit">Prendre rendez-vous</button>
+      <button type="submit" className='buttonRDV'>Prendre rendez-vous</button>
     </form>
+    <div className='ContactEtDispo1'>
+    <h5>Vous n'avez pas besoin de conseils ?</h5>
+    <h2>
+      Contactez-nous directement si vous<br/>
+      souhaitez un devis pour la création de<br/>
+      votre site internet son référencement et sa <br/>
+      sécurisation.
+    </h2>
+    </div>
+    <div className='ContactEtDispo2'>
+      <div>
+        <h6>Téléphone</h6>
+        <p>01 23 45 67 89</p>
+        <p>+33 1 23 45 67 89</p>
+      </div>
+      <div>
+        <h6>Email Adresse</h6>
+        <p>sQrJt@example.com</p>
+        <p>LsZ0T@example.com</p>
+      </div>
+      <div>
+        <h6>Nos horraires</h6>
+        <p>Lundi au Vedredi de 9h a 18h</p>
+        <p>Samedi de 9h a 12h</p>
+      </div>
+    </div>
+    </div>
   );
 };
 
