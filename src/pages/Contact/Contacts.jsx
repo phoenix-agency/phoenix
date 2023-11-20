@@ -47,7 +47,7 @@ export default function Contacts() {
           N'utilisez pas non plus la boîte mail hello@webagencelille.com ! vous recherchez un stage alors 
           utilisez la boîte mail candidature@webagencelille.com
           </p>
-          <p><ButtonCandidat /></p>
+          <ButtonCandidat />
           
         </div>
       </div>
