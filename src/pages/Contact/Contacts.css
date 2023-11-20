@@ -1,0 +1,30 @@
+.ContactsHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.Projets{
+    grid-column: 1/1;
+}
+
+.ContactsImg{
+    width: 100%;
+    height: auto;
+    grid-column: 2/2;
+}
+
+.ContactsHeader h2 {
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-bottom: 2vh;
+    color: #2C2C51;
+}
+
+.ContactsHeader h3 {
+    font-size: 2em;
+    margin-bottom: 5vh;
+    color: #2C2C51;
+}

@@ -61,6 +61,24 @@ form {
     background-color: #33E2A0;
   }
 
+.form-id input{
+    width: 400px;
+    height: 30px;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: #33E2A0;
+}
+
+.form-contact input{
+    width: 400px;
+    height: 30px;
+    border: #ccc solid 1px;
+    border-radius: 4px;
+    margin-right: 5px;
+    background-color: #33E2A0;
+}
+
   button {
     border: none;
     padding: 12px 16px;
