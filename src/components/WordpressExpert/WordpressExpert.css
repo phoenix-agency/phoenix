@@ -1,0 +1,58 @@
+.WordpressContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    align-items: center;
+}
+
+.WordpressTextContainer {
+    display: flex;
+}
+
+.WordpressButtonContainer {
+    display: flex;
+}
+
+.WordpressPresentation {
+    width : 70vh;
+}
+
+.WordpressButton {
+    background-color: #33E2A0;
+    padding: 1vh;
+    border-radius: 45px;
+    font-size: 1.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: white;
+}
+
+.WordpressPurple {
+    background-color: #7C61D6;
+    margin-right: 3vh;
+}
+
+.WordpressTitle {
+    font-size: 2.5rem;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: #2c2c51;
+    font-weight: 600;
+}
+
+.WordpressText {
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 45px;
+    color: #677294;
+}
+
+.WordpressSlogan {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 15vh;
+    color: #2c2c51;
+}

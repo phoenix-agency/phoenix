@@ -8,6 +8,7 @@ import Realisations from "./pages/Realisations/Realisations";
 import Contacts from "./pages/Contact/Contacts";
 import RendezVous from "./pages/RendezVous/RendezVous";
 import Candidature from "./pages/Candidature/Candidature";
+import WordpressPage from "./pages/Wordpress/Wordpress";
 //Import Components
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/rendezvous" element={<RendezVous />} />
           <Route path="/candidature" element={<Candidature />} />
+          <Route path="/wordpress" element={<WordpressPage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
