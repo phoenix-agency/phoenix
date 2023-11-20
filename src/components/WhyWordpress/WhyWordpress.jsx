@@ -1,4 +1,5 @@
 import Cms from './../CMS/Cms'
+import AccessibleTech from './../AccessibleTech/AccessibleTech'
 import './WhyWordpress.css'
 function whyWordpress () {
     return (
@@ -8,6 +9,7 @@ function whyWordpress () {
             </div>
             <div>
                 <Cms />
+                <AccessibleTech />
             </div>
         </>
     )

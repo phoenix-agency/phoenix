@@ -17,8 +17,8 @@ function wordpress() {
                     </div>
                 </div>
             </div>
-            <div>
-                    <img src={CmsPic} alt='Illustration société' className='IllustrationSection' />
+            <div className='IllustrationSection'>
+                    <img src={CmsPic} alt='Illustration société' />
             </div>
         </div>
     );

@@ -33,4 +33,13 @@
 
 .Container-Wordpress-Button {
     margin-top: 10vh;
+    
+}
+
+.IllustrationSection {
+    width: 50vh;
+}
+
+.Title-Row-Reverse {
+    flex-direction: row-reverse;
 }
