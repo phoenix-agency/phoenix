@@ -1,5 +1,7 @@
 import Cms from './../CMS/Cms'
 import AccessibleTech from './../AccessibleTech/AccessibleTech'
+import Usefulness from './../Usefulness/Usefulness'
+import Cute from './../Cute/Cute'
 import './WhyWordpress.css'
 function whyWordpress () {
     return (
@@ -10,6 +12,8 @@ function whyWordpress () {
             <div>
                 <Cms />
                 <AccessibleTech />
+                <Usefulness />
+                <Cute />
             </div>
         </>
     )
