@@ -1,6 +1,7 @@
 import React from 'react'
 import './Contacts.css'
 import contacts from '../../assets/contacts.png'
+import ButtonCandidat from '../../components/buttonCandidat/buttonCandidat'
 
 export default function Contacts() {
   return (
@@ -23,6 +24,33 @@ export default function Contacts() {
       </div>
     </section>
     <section className="ContactsMain">
+      <h2>
+      Contactez Votre Agence Web Webagencelille.Com Pour Un Devis Gratuit De Refonte / 
+      Création De Site Internet / Maintenance / Cyber-Securite / Audit Informatique
+      </h2>
+      <div>
+        <div>
+          {/* Formulaire Projet */}
+        </div>
+        <div>
+          <h3>Vous souhaitez nous partager votre Projet?</h3>
+          <h4>Remplissez ce formulaire pour nous déposer votre projet</h4>
+          <h5>Nous vous répondrons très rapidement</h5>
+        </div>
+        <div>
+          <h3>Comment déposer sa candidature?</h3>
+          <p>
+          Pour toutes demandes de stages merci d’utiliser directement notre portail de 
+          dépôt de candidature disponible à cette adresse 
+          http://webagencelille.com/stage-webdesign-developpeur-web-communication-referencement-a-lille 
+          ou dans la rubrique Outils. Si vous utilisez ce formulaire votre email sera directement détruit 
+          N'utilisez pas non plus la boîte mail hello@webagencelille.com ! vous recherchez un stage alors 
+          utilisez la boîte mail candidature@webagencelille.com
+          </p>
+          <p><ButtonCandidat /></p>
+          
+        </div>
+      </div>
       </section>
       <section className="ContactsFooter">
 
