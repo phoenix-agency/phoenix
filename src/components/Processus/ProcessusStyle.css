@@ -1,0 +1,58 @@
+.ProcessusContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IllustrationContainer {
+    width: 40vh;
+}
+
+.NumberContainer {
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0 10px 30px 0 rgba(1,1,64,.08);
+    width: 80px;
+    height: 80px;
+    color: #33e2a0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 80px;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+.ProcessusTextContainer {
+    width: 40vh;
+}
+
+.ProcessusTitle {
+    color: #1b0e3d;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30vh;
+}
+
+.ProcessusSubTitle {
+    color: #1b0e3d;
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 2vh;
+}
+
+.ProcessusText {
+    font-size: 16px;
+    font-weight: 400;
+    color: #868894;
+}
+
+.Inverse {
+    flex-direction: row-reverse;
+}
+
+.TextAlignRight {
+    text-align: right;
+}
