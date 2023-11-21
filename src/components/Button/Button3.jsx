@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 const Button3 = ({ link }) => {
   return (
     <Link to={link}>
-      <button className="bg-primary duration-300 text-xs px-6 py-3 font-semibold text-white rounded mt-6 hover:bg-secondary">
+      <button className="bg-primary duration-300 text-xs px-6 py-3 font-semibold text-white rounded  hover:bg-secondary">
         En savoir plus
       </button>
     </Link>
