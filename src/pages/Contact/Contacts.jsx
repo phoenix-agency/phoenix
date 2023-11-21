@@ -2,6 +2,7 @@ import React from 'react'
 import './Contacts.css'
 import contacts from '../../assets/contacts.png'
 import ButtonCandidat from '../../components/buttonCandidat/buttonCandidat'
+import FormProjet from '../../components/FormProjet/FormProjet'
 
 export default function Contacts() {
   return (
@@ -30,7 +31,7 @@ export default function Contacts() {
       </h2>
       <div>
         <div>
-          {/* Formulaire Projet */}
+        <FormProjet />
         </div>
         <div>
           <h3>Vous souhaitez nous partager votre Projet?</h3>
