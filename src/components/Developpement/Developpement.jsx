@@ -1,9 +1,9 @@
-import MaquettePic from '../../assets/DeveloppementPic.png'
+import DeveloppementPic from '../../assets/DeveloppementPic.png'
 function developpement() {
     return (
         <div className='ProcessusContainer Inverse'>
             <div className='IllustrationContainer'>
-                <img src={MaquettePic} alt="Illustration Developpement" />
+                <img src={DeveloppementPic} alt="Illustration Developpement" />
             </div>
             <div className='NumberContainer'>
                 2
