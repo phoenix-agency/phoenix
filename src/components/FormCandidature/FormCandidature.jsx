@@ -33,7 +33,7 @@ const FormCandidature = () => {
 
   return (
     <div>
-      <div className='FormHead'>
+       <div className='FormHead'>
         <div className='Saisie'>
           1 Saisie des informations
         </div>
@@ -112,7 +112,8 @@ const FormCandidature = () => {
       </div>
       <br />
       <button className="form-button" type="submit">Soumettre la candidature</button>
-    </form>
+    </form> 
+    
     </div>
   );
 };
