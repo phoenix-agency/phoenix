@@ -111,7 +111,6 @@ const FormProjet = () => {
                             placeholder="Ajouter un fichier"
                             name="file"
                             onChange={handleChange}
-                            required="required"
                         />
                     </label>
                 <br />
