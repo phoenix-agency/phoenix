@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 const DesignDeveloppement = () => {
   return (
     <div>
-      <h2 className="text-secondary text-4xl text-center capitalize font-extrabold mb-16">
+      <h2 className="text-secondary  text-3xl md:text-4xl text-center capitalize font-extrabold mb-16">
         Parce que les deux font la paire
       </h2>
-      <div className="grid grid-flow-row gap-y-8 gap-x-16 mx-16 mb-16 md:grid-cols-2">
+      <div className="grid grid-flow-row gap-y-8 gap-x-16 mx-6  sm:mx-16 mb-16 md:grid-cols-2">
         <div>
-          <img src={design} className="h-80 mx-auto" alt="design" />
+          <img src={design} className="h-80 w-full mx-auto" alt="design" />
           <h3 className="text-primary text-2xl font-extrabold text-center my-6">
             Web Design
           </h3>
@@ -36,7 +36,7 @@ const DesignDeveloppement = () => {
           </p>
         </div>
       </div>
-      <div className="grid grid-flow-row gap-y-8 mb-8 gap-x-16 md:grid-flow-col">
+      <div className="grid grid-flow-row gap-y-8 mb-8 mx-6  sm:mx-16 gap-x-16 md:grid-flow-col">
         <Link
           to="https://prontopro.fr/"
           className="uppercase text-xl text-primary text-center hover:scale-105"

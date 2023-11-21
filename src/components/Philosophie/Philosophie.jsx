@@ -4,7 +4,7 @@ import number3 from "../../assets/number3.png";
 import number4 from "../../assets/number4.png";
 const Philosophie = () => {
   return (
-    <div className="mx-8 xl:mx-56 mb-10">
+    <div className="mx-4 lg:mx-10 xl:mx-28 2xl:mx-56 mb-10">
       <h2 className="text-gray-dark text-center">
         DU MEILLEUR . DU PLUS . DE LA PASSION
       </h2>
@@ -12,8 +12,8 @@ const Philosophie = () => {
         La Philosophie De Notre Agence
       </h2>
       <div className="grid grid-flow-row gap-8 md:grid-cols-2">
-        <div className="px-12 py-16 border rounded-t-xl rounded-ee-xl rounded-bl-[66px] shadow-xl">
-          <img src={number1} className="mb-4" alt="number1" />
+        <div className="px-8 sm:px-12 py-16 border rounded-t-xl rounded-ee-xl rounded-bl-[66px] shadow-xl">
+          <img src={number1} className=" mb-4" alt="number1" />
           <h4 className="text-2xl text-secondary capitalize text-center font-bold mb-4 md:text-left">
             Rien ne nous arrête
           </h4>

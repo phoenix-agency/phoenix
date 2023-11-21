@@ -3,7 +3,7 @@ const Button = ({ link, color, title }) => {
   return (
     <Link to={link}>
       <button
-        className={`${color} duration-300 uppercase px-11 py-3 font-semibold text-white rounded-full mt-6 hover:bg-secondary`}
+        className={`${color} duration-300 uppercase px-6 sm:px-11 py-3 font-semibold text-white rounded-full hover:bg-secondary`}
       >
         {title}
       </button>
