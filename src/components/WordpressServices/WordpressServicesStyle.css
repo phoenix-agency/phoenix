@@ -1,0 +1,57 @@
+.WordpressServicesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.WordpressServicesList {
+    display: flex;
+}
+
+.WordpressServicesDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    width: 35vh;
+}
+
+.WordpressServicesTitle {
+    color: #1b0e3d;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.2em;
+    margin-bottom: 3vh;
+}
+
+.WordpressServicesSubTitle {
+    color: #1b0e3d;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.WordpressServicesText {
+    text-align: center;
+}
+
+.WordpressServicesIcon {
+    background-color: #33e2a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    padding: 0.5em;
+    border-radius: 100px;
+
+}
+
+.WordpressServicesBorder {
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #7c61d6;
+}
