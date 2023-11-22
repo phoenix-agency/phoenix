@@ -128,3 +128,33 @@
     margin: 10vh;
     border: 0px;
 }
+
+.ContactsFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #F5F7FB;
+    padding: 5vh;
+}
+
+.ContactsFooter h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4632DA;
+}
+
+.ContactsFooter h3{
+    font-size: 1.5em;
+    font-weight:lighter;
+    color: #2C2C51;
+}
+
+.Cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh
+}

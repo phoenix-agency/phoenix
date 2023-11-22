@@ -63,7 +63,27 @@ export default function Contacts() {
           </div>
         </div>
       </section>
-      <section className="ContactsFooter"></section>
+      <section className="ContactsFooter">
+        <h2>Restons En Contact</h2>
+        <h3>Présentez-NousVotre Projet</h3>
+        <div className="Cards">
+          <div>
+            <h4>Par Téléphone</h4>
+            <p> 01 02 03 04 05 </p>
+          </div>
+          <div>
+            <h4>Notre adresse même si on se déplace directement chez vous</h4>
+            <p>
+              5 Ter Rue Du Vieux Faubourg <br />
+              59800 Lille
+            </p>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <p>hello@webagencelille.com</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
