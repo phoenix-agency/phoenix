@@ -28,8 +28,16 @@ export default function Contacts() {
           Audit Informatique
         </h2>
         <div className="ContactsMainDiv">
-          <div className="ProjetFrom">
+          <div className="Left">
             <FormProjet />
+            <div>
+              <h3>Horaires d'ouverture</h3>
+              <ul>
+                <li>Lundi - Vendredi : 9h - 18h</li>
+                <li>Samedi : 9h - 12h</li>
+                <li>Dimanche : Fermé</li>
+              </ul>
+            </div>
           </div>
           <div className="Right">
             <div className="ProjetText">
