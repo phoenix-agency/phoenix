@@ -106,6 +106,16 @@ const FormProjet = () => {
                         />
                     </label>
                     <label>
+                        <textarea
+                            type="text"
+                            placeholder="Projet"
+                            name="projet"
+                            value={formData.projet}
+                            onChange={handleChange}
+                            required="required"
+                        />
+                    </label>
+                    <label>
                         <input
                             type="file"
                             placeholder="Ajouter un fichier"
