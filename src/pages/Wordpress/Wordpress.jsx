@@ -3,6 +3,7 @@ import WhyWordpress from "../../components/WhyWordpress/WhyWordpress"
 import Processus from "../../components/Processus/Processus"
 import YourWebsite from "../../components/YourWebsite/YourWebsite"
 import WordpressServices from "../../components/WordpressServices/WordpressServices"
+import ChooseUs from "../../components/ChooseUs/ChooseUs"
 import "./WordpressStyle.css"
 
 function wordpress() {
@@ -13,6 +14,7 @@ function wordpress() {
             <Processus />
             <YourWebsite />
             <WordpressServices />
+            <ChooseUs />
         </div>
     )
 }
