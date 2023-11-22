@@ -1,0 +1,36 @@
+.WordpressPortfolioContainer {
+    background-color: #7c61d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 59px 59px 59px 59px;
+    margin-bottom: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 40vh;
+    padding-left: 40vh;
+}
+
+.WordpressPortfolioTitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 800;
+    
+}
+
+.WordpressPortfolioText {
+    text-align: center;
+    color: #E4E4E4;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.WordpressPortfolioDiscoverButton {
+    color: #ffffff;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: #33E2A0;
+    border-radius: 26px 26px 26px 26px;
+    padding: 15px 45px 15px 45px;
+}

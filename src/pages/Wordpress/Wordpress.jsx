@@ -5,6 +5,7 @@ import YourWebsite from "../../components/YourWebsite/YourWebsite"
 import WordpressServices from "../../components/WordpressServices/WordpressServices"
 import ChooseUs from "../../components/ChooseUs/ChooseUs"
 import WordpressExamples from "../../components/WordpressExamples/WordpressExamples"
+import WordpressPortfolio from "../../components/WordpressPortfolio/WordpressPortfolio"
 import "./WordpressStyle.css"
 
 function wordpress() {
@@ -17,6 +18,7 @@ function wordpress() {
             <WordpressServices />
             <ChooseUs />
             <WordpressExamples />
+            <WordpressPortfolio />
         </div>
     )
 }
