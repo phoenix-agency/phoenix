@@ -10,7 +10,7 @@ import Button2 from "../Button/Button2";
 function NosPrestations() {
   return (
     <div className="hidden md:block">
-      <div className="pt-24 bg-gray-300 rounded-[250px]">
+      <div className="pt-24 bg-green-300 rounded-[250px]">
         <h2 className=" pb-6 text-4xl font-extrabold text-white text-center">
           Nos Prestations
         </h2>

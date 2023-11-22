@@ -4,6 +4,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
+    background-color: #F5F7FB;
 }
 
 .Projets{
@@ -27,4 +28,158 @@
     font-size: 2em;
     margin-bottom: 5vh;
     color: #2C2C51;
+}
+
+.ContactsMain{
+    background-color: rgb(250, 247, 250);
+}
+
+.ContactsMain h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #2C2C51;
+    padding: 5vh;
+}
+
+.ContactsMainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    align-items: center;
+    justify-items: center;
+    padding: 5vh;
+
+}
+
+.Left{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding: 5vh;
+
+}
+
+.Left div{
+    margin: 5vh;
+}
+
+.Left h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.Right{
+    background-color: #f6f9fc;
+    width: 70%;
+}
+
+.ProjetText{
+    grid-column:1/1;
+    grid-row: 1/1;
+    padding: 5vh;
+    text-align: center;
+    margin: 5vh;
+    border-bottom: #b0b0b8 1px solid;
+
+}
+
+.ProjetText h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.ProjetText h4{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #33E2A0;
+    margin-bottom: 5vh;
+}
+
+.ProjetText h5{
+    font-size: 1em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.CandidatureText{
+    color: #2C2C51;
+    font-size: 1em;
+    text-align: center;
+    margin: 5vh;
+    border-bottom: #b0b0b8 1px solid;
+    padding: 5vh;
+}
+
+.CandidatureText h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.CandidatureButton{
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    border: 0px;
+}
+
+.ContactsFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #F5F7FB;
+    padding: 5vh;
+}
+
+.ContactsFooter h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4632DA;
+}
+
+.ContactsFooter h3{
+    font-size: 1.5em;
+    font-weight:lighter;
+    color: #2C2C51;
+}
+
+.Cards{
+    /* display: flex;
+    justify-content: space-around;
+    padding: 10vh; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+  
+    
+
+
+  
+    
+
+}
+
+.Cards div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* width: 350px;
+    height: 350px; */
+    align-items: center;
+    justify-content:center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    border : 0px solid #f4f4f7;
+    border-radius: 10px;
+    background-color: #d8d8db;
+    box-shadow: #d1d1d6 4px 4px 10px;
+    padding: 5vh;
+    
 }
