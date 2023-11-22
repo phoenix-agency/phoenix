@@ -151,10 +151,35 @@
 }
 
 .Cards{
+    /* display: flex;
+    justify-content: space-around;
+    padding: 10vh; */
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: space-around;
+  
+    
+
+
+  
+    
+
+}
+
+.Cards div{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-align: center;
+    /* width: 350px;
+    height: 350px; */
     align-items: center;
-    justify-items: center;
+    justify-content:center;
     margin-top: 5vh;
-    margin-bottom: 5vh
+    margin-bottom: 5vh;
+    border : 0px solid #f4f4f7;
+    border-radius: 10px;
+    background-color: #d8d8db;
+    box-shadow: #d1d1d6 4px 4px 10px;
+    padding: 5vh;
+    
 }
