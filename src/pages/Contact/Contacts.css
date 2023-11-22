@@ -4,6 +4,7 @@
     grid-template-rows: 1fr;
     align-items: center;
     justify-items: center;
+    background-color: rgb(245, 244, 244);
 }
 
 .Projets{
@@ -27,4 +28,88 @@
     font-size: 2em;
     margin-bottom: 5vh;
     color: #2C2C51;
+}
+
+.ContactsMain h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #2C2C51;
+    margin: 5vh;
+    padding: 2vh;
+}
+
+.ContactsMainDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    align-items: center;
+    justify-items: center;
+    padding: 5vh;
+
+}
+
+.ProjetForm{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    padding: 5vh;
+
+}
+
+.Right{
+    background-color: #F1F5F9;
+}
+
+.ProjetText{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    padding: 5vh;
+    text-align: center;
+    margin: 5vh;
+    border-bottom: #b0b0b8 1px solid;
+
+}
+
+.ProjetText h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.ProjetText h4{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #33E2A0;
+    margin-bottom: 5vh;
+}
+
+.ProjetText h5{
+    font-size: 1em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.CandidatureText{
+    color: #2C2C51;
+    font-size: 1em;
+    text-align: center;
+    margin: 5vh;
+    border-bottom: #b0b0b8 1px solid;
+    padding: 5vh;
+}
+
+.CandidatureText h3{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #2C2C51;
+    margin-bottom: 5vh;
+}
+
+.CandidatureButton{
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+    border: 0px;
 }
