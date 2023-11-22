@@ -1,0 +1,34 @@
+.WordpressExamplesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+.WordpressExamplesList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+
+.WordpressExamplesItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60vh;
+    color: #1b0e3d;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.WordpressExamplesTitle {
+    color: #1b0e3d;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-align: center;
+    width: 110vh;
+    margin-bottom: 3vh;
+}
