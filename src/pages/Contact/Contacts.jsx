@@ -3,6 +3,9 @@ import "./Contacts.css";
 import contacts from "../../assets/contacts.png";
 import ButtonCandidat from "../../components/buttonCandidat/buttonCandidat";
 import FormProjet from "../../components/FormProjet/FormProjet";
+import PhoneIcon from "../../assets/Phoneicon.png";
+import MailIcon from "../../assets/Mail-icon.png";
+import LocationIcon from "../../assets/Location-icon.png";
 
 export default function Contacts() {
   return (
@@ -68,10 +71,12 @@ export default function Contacts() {
         <h3>Présentez-NousVotre Projet</h3>
         <div className="Cards">
           <div>
+            <img src={PhoneIcon} alt="" />
             <h4>Par Téléphone</h4>
             <p> 01 02 03 04 05 </p>
           </div>
           <div>
+            <img src={LocationIcon} alt="" />
             <h4>Notre adresse même si on se déplace directement chez vous</h4>
             <p>
               5 Ter Rue Du Vieux Faubourg <br />
@@ -79,6 +84,7 @@ export default function Contacts() {
             </p>
           </div>
           <div>
+            <img src={MailIcon} alt="" />
             <h4>Email</h4>
             <p>hello@webagencelille.com</p>
           </div>
