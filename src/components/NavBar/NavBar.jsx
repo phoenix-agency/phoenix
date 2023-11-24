@@ -17,7 +17,6 @@ export default function NavBar() {
   // const handleLoupeClick = () => {
   //   setShowResearch(true);
   // };
-
   return (
     <nav>
       <div className="Navbar">
@@ -34,7 +33,7 @@ export default function NavBar() {
           Prestations
           {showPrestaList && <ListePresta />}
         </Link>
-        <Link to="/realisations">Réalisations</Link>
+        <Link to="https://projet-wal.fr/">Réalisations</Link>
         <Link
           to="/contacts"
           onMouseEnter={() => setShowContactList(true)}

@@ -1,0 +1,87 @@
+.ChooseUsContainer {
+    background-color: #7c61d6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+
+.ChooseUsTextContainer {
+    width: 53vh;
+    padding: 1vh;
+}
+
+.ChooseUsButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+.ChooseUsContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ChooseUsTitle {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    width: 120vh;
+    text-align: center;
+}
+
+.ChooseUsSubtitle {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.ChooseUsText {
+    text-align: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.ChooseUsButton {
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    fill: #1B0E3D;
+    color: #1B0E3D;
+    background-color: #FFFFFF;
+    border-radius: 50px 50px 50px 50px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ChooseUsIcon {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.GreenColor {
+    color: #33e2a0;;
+}
+
+.WhiteColor {
+    color: white;
+}
+
+.WhiteBackground {
+    background-color: white;
+}
+
+.Border {
+    border : 1px solid white
+}
