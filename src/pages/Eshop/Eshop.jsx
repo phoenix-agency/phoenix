@@ -3,6 +3,7 @@ import ButtonContact from "../../components/ButtonContact/ButtonContact";
 import eshopHeader from "../../assets/eshopHeader.png";
 import eshop_respons from "../../assets/eshop_respons.png";
 import { Link } from "react-router-dom";
+import "./Eshop.css";
 
 export default function Eshop() {
   return (
@@ -14,7 +15,9 @@ export default function Eshop() {
             Développez votre activité en vendant sur internet avec un site
             internet sécurisé et performant.
           </h4>
-          <ButtonContact />
+          <div className="ButtonContact">
+            <Link to="/contact">Demander un Devis</Link>
+          </div>
         </div>
         <div>
           <img src={eshopHeader} alt="" />
