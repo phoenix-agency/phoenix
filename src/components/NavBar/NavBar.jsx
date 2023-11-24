@@ -11,11 +11,12 @@ export default function NavBar() {
   const [showPrestaList, setShowPrestaList] = useState(false);
   const [showContactList, setShowContactList] = useState(false);
   const [showResearch, setShowResearch] = useState(false);
-
-  const handleLoupeClick = () => {
-    setShowResearch(true);
+  const handleClose = () => {
+    setShowResearch(false);
   };
-
+  // const handleLoupeClick = () => {
+  //   setShowResearch(true);
+  // };
   return (
     <nav>
       <div className="Navbar">
@@ -41,10 +42,10 @@ export default function NavBar() {
           Contacts
           {showContactList && <ListeContact />}
         </Link>
-        <div className="Loupe" onClick={handleLoupeClick}>
+        <div className="Loupe" onClick={() => setShowResearch(true)}>
           <Loupe />
         </div>
-        {showResearch && <Research />}
+        <Research onClose={handleClose} visible={showResearch} />
       </div>
     </nav>
   );
