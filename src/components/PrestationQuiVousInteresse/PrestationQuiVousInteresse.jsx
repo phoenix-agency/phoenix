@@ -12,7 +12,7 @@ import Rgpd from "../../assets/Rgpd.png";
 import Audit from "../../assets/Audit.png";
 const PrestationQuiVousInteresse = () => {
   return (
-    <div className="lg:hidden">
+    <div className="lg:hidden mt-32">
       <h3 className="text-secondary text-3xl text-center font-semibold">
         Choisissez la prestation qui vous intéresse
       </h3>
