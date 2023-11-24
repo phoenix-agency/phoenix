@@ -9,12 +9,12 @@ import Contacts from "./pages/Contact/Contacts";
 import RendezVous from "./pages/RendezVous/RendezVous";
 import Candidature from "./pages/Candidature/Candidature";
 import WordpressPage from "./pages/Wordpress/Wordpress";
+import Eshop from "./pages/Eshop/Eshop";
+
 //Import Components
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import NavBar from './components/NavBar/NavBar';
-
-
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
           <Route path="/rendezvous" element={<RendezVous />} />
           <Route path="/candidature" element={<Candidature />} />
           <Route path="/wordpress" element={<WordpressPage />} />
+          <Route path="/Eshop" element={<Eshop />} />
         </Routes>
         <Footer />
       </BrowserRouter>
