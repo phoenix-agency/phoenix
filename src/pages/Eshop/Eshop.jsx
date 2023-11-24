@@ -134,6 +134,77 @@ export default function Eshop() {
           </p>
         </div>
       </section>
+      <section className="EshopMain3">
+        <h3>Conception e-commerce sur-mesure</h3>
+        <p>
+          En fonction de vos objectifs et de vos exigences, nous vous fournirons
+          la technologie e-commerce qu’il vous faut. Vous obtiendrez un site
+          internet à votre image : complet, sécurisé et doté de toutes les
+          fonctionnalités dont vous aurez besoin.
+        </p>
+      </section>
+      <section className="EshopMain4">
+        <h2>Pour Les Clients De Votre Site E-Commerce</h2>
+        <div>
+          <div>Panier modifiable avant la validation de l'achat</div>
+          <div>
+            Historique des commandes, état d'expédition, création de listes de
+            souhaits
+          </div>
+          <div>Paiement sécurisé avec un cryptage SSL 128 BITS</div>
+          <div>Option d'emballage cadeau et message de carte cadeau</div>
+          <div>
+            possibilité de pouvoir payer anonymement sans être nécessairement
+            inscrit au préalable, ce qui améliorera la conversion de votre site
+            marchand
+          </div>
+        </div>
+      </section>
+      <section className="EshopMain5">
+        <h2>Pour La Gestion De Votre Site E-Commerce</h2>
+        <div>
+          <div>Configurez facilement les tailles et les couleurs</div>
+          <div>
+            Ajoutez et modifiez les prix et descriptions de vos produits avec
+            facilité
+          </div>
+          <div>
+            Site marchand totalement optimisé pour votre référencement naturel
+            SEO
+          </div>
+          <div>Gestion des stocks et inventaires</div>
+          <div>
+            Possibilité d'exporter l'historique des transactions et des ventes
+            de votre site marchand en format CVS (tableau Excel)
+          </div>
+          <div>
+            Offrez des coupons, des codes de réductions et des chèques-cadeaux
+            directement à partir de votre site e-commerce, pratique pour la
+            fidélisation de vos clients / visiteurs
+          </div>
+          <div>Intégration avec Paypal et d'autres passerelles de paiement</div>
+        </div>
+      </section>
+      <section className="EshopMain6">
+        <h2>
+          Les Solutions E-Commerce Proposées Par Votre Agence Web De Lille
+        </h2>
+        <p>
+          Nous avons sélectionné pour vous les meilleurs CMS pour la création de
+          site internet e-commerce. Ils possèdent tous une excellente interface
+          de gestion, une simplicité d’utilisation. Nous mettons à votre
+          disposition de véritables outils très puissants qui vous permettront
+          d’ouvrir votre magasin en ligne.
+        </p>
+      </section>
+      <section className="EshopFooter">
+        <h2>Découvrez les réalisations de votre agence web de Lille</h2>
+        <p>
+          Nos créations de sites internet vitrine, e-commerce, référencement
+          naturel, création de logo, gestion des réseaux sociaux et plus.
+        </p>
+        <a href="https://projet-wal.fr/">Ouvrir le Profolio</a>
+      </section>
     </div>
   );
 }
