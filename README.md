@@ -20,6 +20,7 @@ To get started with the project, follow these steps:
 ```bash
 cd phoenix
 
+
 3. Install dependencies:
 
 npm install
