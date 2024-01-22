@@ -17,7 +17,7 @@ To get started with the project, follow these steps:
 
 2. Navigate to the project directory:
    ```bash
-   git clone https://github.com/phoenix-agency/phoenix.git
+   cd phoenix
    
 4. Install dependencies:
 
