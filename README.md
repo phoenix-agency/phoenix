@@ -17,4 +17,5 @@ To get started with the project, follow these steps:
 
 2. Navigate to the project directory:
 
+```bash
 cd phoenix
