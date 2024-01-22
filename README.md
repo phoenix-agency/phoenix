@@ -21,22 +21,4 @@ To get started with the project, follow these steps:
    
 4. Install dependencies:
  ```bash
-   cd phoenix
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   npm install
