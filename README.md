@@ -21,11 +21,3 @@ To get started with the project, follow these steps:
 cd phoenix
 
 
-3. Install dependencies:
-
-npm install
-
-
-## Technologies Used
-React.js
-Tailwind CSS
