@@ -19,6 +19,23 @@ To get started with the project, follow these steps:
 
 ```bash
 cd phoenix
-3. test 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Technologies Used
+React.js
+Tailwind CSS
+
 
 
