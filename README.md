@@ -23,3 +23,8 @@ cd phoenix
 3. Install dependencies:
 
 npm install
+
+
+## Technologies Used
+React.js
+Tailwind CSS
