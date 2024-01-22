@@ -28,3 +28,8 @@ To get started with the project, follow these steps:
 Once the installation is complete, you can run the development server with:
  ```bash
    npm run dev
+
+
+## Technologies Used
+React.js
+Tailwind CSS
