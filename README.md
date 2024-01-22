@@ -20,6 +20,8 @@ To get started with the project, follow these steps:
    cd phoenix
    
 4. Install dependencies:
+ ```bash
+   cd phoenix
 
 
 
