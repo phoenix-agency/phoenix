@@ -22,4 +22,3 @@ To get started with the project, follow these steps:
 4. Install dependencies:
    ```bash
    npm install
-
