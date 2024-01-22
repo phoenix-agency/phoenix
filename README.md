@@ -21,3 +21,6 @@ To get started with the project, follow these steps:
 cd phoenix
 
 
+3. tesr
+
+
